@@ -1,0 +1,33 @@
+Aspects:
+- Language: low level of complex terms (1: Chatgpt, 2: Claude, 3: Cohere)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: Claude, 2:Cohere, 3:Chatgpt)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1:Claude, 2:Cohere, 3:Chatgpt)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:Claude, 2: Cohere, 3: Chatgpt) 
+ChatGPT: These (0), they (4)
+Claude: These (0), they (1)
+Cohere: These (0), they (2)
+
+Important topics: 
+- binary classification of linearly separable datasets and show that linear classifiers could also have decision boundaries that lie close to their training dataset
+- differential training
+- gradient methods, cross-entropy loss function and the low-dimensionality of the training dataset have responsibility for misclassification
+- adversarial examples
+
+Chatgpt: It is giving example to explain the concept. However, 'specifically in tasks like sorting things into categories.' is not directly mentioned in the text
+- 'numbers to represent things and giving them rules to follow' is not clear
+- not mentioning the cause of misclassification
+- missing the term 'adversarial examples' 
+- not discussing linear classifiers
+
+Cohere: 
+- "pushing the decision boundary further away from the training data" difficult to comprehend
+- not mentioning the gradient classifiers as cause for misclassification for adversarial examples
+- could have used paragraphs
+
+Claude: saying "small margin of error" and also explaining what this means
+- not mentioning the gradient classifiers as cause for misclassification for adversarial examples
+
+Overal rank: 1:Claude, 2: Chatgpt , 3:Cohere
+
+Evaluation
+Chatgpt uses vague language "sorting things into categories" and misses detail. Claude has a clear structure, explains difficult words and is detailed. Cohere is using difficult words (not explaining them), could have paragraphs but is explaining the important concepts. 

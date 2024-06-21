@@ -1,0 +1,15 @@
+Face recognition is an important task in computer vision and artificial intelligence. It involves training computer models to identify and distinguish between different people's faces in images or videos. One key component is the loss function, which guides the model's training process. 
+
+Traditional loss functions like softmax don't work well for face recognition. Researchers have proposed margin-based losses that increase the separation between different classes (people's faces). Examples include CosFace, SphereFace, ArcFace, and Adacos. However, these don't emphasize hard or misclassified samples enough during training.
+
+Other losses like Triplet loss and SV-Arc-Softmax use mining strategies to give more importance to hard samples. But they either ignore sample difficulty completely or over-emphasize hard samples too early, leading to convergence issues.
+
+In this work, researchers propose a new loss function called CurricularFace for face recognition. It uses the idea of "curriculum learning" - starting with easy samples first and gradually increasing focus on harder ones as training progresses. This mimics how humans learn best.
+
+CurricularFace adaptively adjusts the relative importance of easy and hard samples at different training stages. It identifies misclassified samples as "hard" and increases their importance in later stages using a novel modulation function.
+
+This modulation function automatically tunes itself based on moving averages, avoiding manual adjustments. It considers both the training stage and the difficulty of each hard sample when setting importances.
+
+Through extensive experiments on popular face recognition benchmarks, the researchers showed that CurricularFace outperformed state-of-the-art methods like ArcFace and SV-Arc-Softmax.
+
+Potential future work includes designing even better modulation functions and studying the effects of noise samples on training. Overall, this adaptive curriculum learning approach could advance face recognition technology.

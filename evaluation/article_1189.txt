@@ -1,0 +1,26 @@
+Aspects:
+- Language: low level of complex terms (1:chatgpt, 1: claude , 3:cohere)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1:chatgpt, 1:claude, 3:cohere)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1:claude, 2:chatgpt, 3:cohere)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:claude, 2:cohere, 2:chatgpt) 
+ChatGPT: These (0), they (1)
+Claude: These (0), they (0)
+Cohere: These (1), they (0)
+
+
+Important topics: 
+- Knowledge Distillation 
+- design data augmentation agents with distinct roles to facilitate knowledge distillation.
+- data augmentation to generate more training data for the low-precision network based on its specific weaknesses
+
+Chatgpt: It is using the metaphor from paper to explain research of paper which makes understanding the topic easier. However, it is not explaining what the difference between their method compared to traditional use of KD (the motivation behind using this method)
+
+Cohere: It is using difficult words like "data augmentation agents" and "network quantization". 
+Furthermore, the sentence "while generating tailored training data for improved comprehension" is also not easy too understand for a high school student.
+
+Claude: clear structure, using the methaphor of student and teacher from paper, good structure
+
+Overal: 1: Claude, 2: chatgpt, 3: cohere
+
+Evaluation
+Claude has clear structure and effective use of metaphor to explain the research, making it easy to understand. ChatGPT also uses the metaphor and clear language, although it lacks detail on the differences between the method proposed and traditional knowledge distillation, which helps to understand why this research is done. Cohere falls to the third position as it struggles with clarity, particularly with complex terms like "data augmentation agents" and "network quantization," making it less accessible to a wider audience. 

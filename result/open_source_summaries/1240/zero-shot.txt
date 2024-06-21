@@ -1,0 +1,9 @@
+In machine learning, a problem called negative transfer occurs when a model is trained on multiple tasks at the same time, but it ends up learning irrelevant information from the training data. This can cause the model to perform poorly on new, unseen data. The authors of this paper studied this problem and found that it affects a wide range of models, including neural networks. They also showed that previous methods for addressing negative transfer are not effective, especially when the model is trained on features that can be adjusted during training. The authors proposed a new approach called adversarial training, which involves training the model to ignore irrelevant information. They tested their approach on two datasets and found that it improved the model's performance. This means that the model was better able to generalize to new, unseen data. The authors believe that their approach can be used to improve the performance of any supervised learning model.
+
+Important entities in this document include models, training data, and neural networks.
+
+Important dates are not mentioned in this document.
+
+Events happening in this document include the study of negative transfer, the development of a new approach to address negative transfer, and the testing of this approach on two datasets.
+
+The result of these events is the development of a new approach to address negative transfer, which can be used to improve the performance of any supervised learning model.

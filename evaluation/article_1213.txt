@@ -1,0 +1,28 @@
+Aspects:
+- Language: low level of complex terms (1:Claude, 2: chatgpt, 3:cohere)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1:Claude, 2: chatgpt, 3:cohere)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1:Cohere, 2: chatgpt, 3:claude)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:Cohere, 2:chatgpt, 2:claude) 
+ChatGPT: These (0), they (1)
+Claude: These (1), they (0)
+Cohere: These (0), they (0)
+
+Claude: 7
+Cohere: 8
+Chatgpt: 8
+
+Important topics: 
+- backpropagation algorithm 
+- Layer-wise Staleness
+- Diversely Stale Parameters
+
+Chatgpt: It is not mentioning backpropagation algorithm and not explaining forward, backward and update locking. 
+
+Cohere: It is not explaining backpropagation and not explaining forward, backward and update locking.
+
+Claude: It is not mentioning backpropagation and not mentioning forward, backward and update locking
+
+Overall score: 1: Claude, 2: chatgpt, 3: cohere
+
+Evaluation
+Claude mentions the problem the research is trying to address (without using words like forward, backward and update locking) and mentions DSP. This makes it easier for high school students to understand because they are not left with unexplained difficult words. Cohere is mentioning most of the concepts, but does not explain them which results in a harder understanding of the topic. Chatgpt has the same problem but with less examples.

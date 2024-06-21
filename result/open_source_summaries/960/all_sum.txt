@@ -1,0 +1,11 @@
+Reinforcement learning (RL) is a way for computers to learn how to make decisions by trial and error. One challenge in RL is solving long-horizon tasks, which are tasks that require planning and decision-making over a long period of time. Hierarchical Reinforcement Learning (HRL) is a type of RL that tries to solve this problem by breaking down a complex task into smaller, simpler subtasks.
+
+The authors of this paper propose a new HRL architecture called Hierarchical Decompositional Reinforcement Learning (HiDe). HiDe is designed to solve complex navigation tasks, such as finding a path through a maze. The architecture consists of three layers: a planning layer, a subgoal refinement layer, and a low-level control layer. Each layer has a specific role in solving the task.
+
+The planning layer learns to plan a path to the goal, while the subgoal refinement layer refines the plan into smaller, more specific goals. The low-level control layer then controls the agent to achieve these goals. The authors show that their HiDe architecture can generalize to new environments and transfer between different agents.
+
+In other words, the HiDe architecture can learn to solve a task in one environment and then apply that knowledge to solve the same task in a different environment. This is important because it allows the agent to adapt to new situations and learn from its experiences.
+
+The authors also show that the planning layer can be transferred between different agents, which means that a planner learned by one agent can be used by another agent. This is useful because it allows agents to share knowledge and learn from each other.
+
+Overall, the HiDe architecture is a promising approach to solving complex navigation tasks and has the potential to be used in a wide range of applications, such as robotics and video games.

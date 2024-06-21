@@ -1,0 +1,13 @@
+The document discusses the limitations of convolutional networks in recognizing objects with geometric variations. These networks are not aware of these variations, which leads to inefficient utilization of model and data capacity. To overcome this issue, researchers have developed methods to adapt the data towards a common arrangement, but these methods do not directly address the problem. The document proposes a new approach called Deformable Kernels (DKs), which directly adapts the effective receptive field (ERF) of the convolutional network during runtime.
+
+The ERF is the amount of contribution each pixel makes to the final output, and it is determined by the data sampling locations and kernel values. The DKs approach samples the kernel values from the original kernel space, which effectively samples the ERF in linear networks and roughly generalizes to non-linear cases. The document also proposes two variants of DKs, the global DK and the local DK, which behave differently in practice.
+
+The document presents several experiments to validate the DKs approach, including image classification and object detection tasks. The results show that DKs perform favorably against prior works that adapt during runtime and can work orthogonally and complementarily with previous techniques.
+
+The important entities in this document are convolutional networks, geometric variations, data, kernel values, and the effective receptive field (ERF).
+
+The important dates mentioned in the document are not explicitly stated, but the references provided give an idea of the timeline of research in this area.
+
+The events happening in this document are the development of convolutional networks, the recognition of the limitations of these networks, and the proposal of a new approach called Deformable Kernels (DKs) to adapt the effective receptive field (ERF) of the convolutional network during runtime.
+
+The result of these events is the development of a new approach to improve the performance of convolutional networks in recognizing objects with geometric variations.

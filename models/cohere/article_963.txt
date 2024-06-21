@@ -1,0 +1,1 @@
+Deep Graph Infomax (DGI) is a new unsupervised learning approach that maximizes mutual information between patch representations in graph-structured data. By utilizing graph convolutional networks, DGI learns node embeddings that capture global structural properties, achieving competitive performance in both transductive and inductive node classification tasks.

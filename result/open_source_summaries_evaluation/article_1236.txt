@@ -1,0 +1,21 @@
+- Language: low level of complex terms (1: zero-shot, 2: best_sum, 3: all_sum_ev, 4: all_sum)
+best_sum: difficult words like "contrastive loss function" and "few-shot learning", but explains them. Does not explain “controlled and uncontrolled settings”. 
+all_sum:  "few-shot learning," but explains clearly. Also uses words like “converges faster”, “contrastive loss”
+zero-shot: Uses simpler language overall, avoiding technical jargon
+all_sum_ev: "Capsule Networks" "dynamic routing scheme" and "contrastive loss function," but explains them clearly. But also uses word like “equivariance” and “local features”
+
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: zero-shot, 2: all_sum_ev, 3: all_sum, 4: best_sum)
+best_sum: does not have a clear structure since it mentions “limitations of traditional structures at the end of the summary” 
+all_sum: does not have a clear structure without paragraphs
+zero-shot: has a clear structure of problem, method and results
+all_sum_ev: clear structure with and short summary of what has been mentioned
+
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: all_sum, 1: all_sum_ev, 1: zero-shot, 4: best_sum)
+best_sum: doesn’t mention/explain pair-wise learning 
+all_sum, zero-shot and all_sum_ev have the same amount of information load
+
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: best_sum, 4: all_sum, 4: zero-shot , 4: all_sum_ev)
+best_sum: These (0), they (0)
+all_sum: These (2), they (1)
+zero-shot: These (1), they (2)
+all_sum_ev: These (2), they (1)

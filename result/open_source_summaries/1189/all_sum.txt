@@ -1,0 +1,9 @@
+The article discusses a new approach to teaching machine learning models, called Knowledge Distillation (KD). In KD, a more powerful model (the teacher) teaches a less powerful model (the student) by sharing its knowledge. However, the teacher and student models are trained on the same data, which can make it difficult for the student to learn from the teacher. The authors propose a new method called data augmentation agents, which create different training data for the teacher and student. This helps the teacher to demonstrate its knowledge more effectively to the student. The authors tested their approach on popular neural networks and found that it improved the effectiveness of KD. They also compared their method to existing approaches and found that it outperformed them.
+
+The important entities in this document are the machine learning models, the teacher and student, and the data augmentation agents.
+
+The important dates mentioned in the document are not explicitly stated, but the authors reference several research papers and studies from the 2000s and 2010s.
+
+The events happening in this document are the development of the Knowledge Distillation method, the creation of data augmentation agents, and the testing of these methods on various neural networks.
+
+The result of these events is the development of a new and improved method for teaching machine learning models, which can help to improve the performance of these models and enable them to learn more effectively.

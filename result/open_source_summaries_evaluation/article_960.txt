@@ -1,0 +1,21 @@
+- Language: low level of complex terms (1: all_sum_ev, 2: all_sum, 4: zero-shot,  4: best_sum)
+best_sum: not explaining what is meant with “agent”,
+all_sum: easy language, not explaining agents
+zero-shot: not explaining what is meant with “agent”
+all_sum_ev: easy language, explaining agents, rephrase the different type of layers (which are difficult described in scientific paper)
+
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: all_sum_ev, 4: best_sum, 4: all_sum, 4: zero-shot)
+best_sum, all_sum and zero-shot were not explaining what is meant with “agent” whereas all_sum_ev did explain it and rephrase the different type of layers .
+
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: all_sum, 1: zero-shot, 3: all_sum_ev, 4: best_sum)
+all_sum: HiDe architecture, planning layer, subgoal refinement layer, low-level control layer, Proposal of HiDe, testing on navigation tasks, demonstrating generalization and transfer
+all_sum_ev: HiDe, planning layer, control layer, Proposal of HiDe, testing on navigation tasks, demonstrating generalization and transfer.
+
+zero-shot: HiDe, planning layer, subgoal refinement layer, low-level control layer, Development and testing of HiDe, demonstrating generalization and transfer.
+best_sum: HiDe, planning layer, control layer, Development of HiDe, testing on maze navigation tasks, demonstrating generalization and transfer.
+
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: all_sum_ev , 2: zero-shot, 2: all_sum, 4: best_sum)
+best_sum: These (1), they (1)
+all_sum: These (1), they (0)
+zero-shot: These (1), they (0)
+all_sum_ev: These (0), they (0)

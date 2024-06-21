@@ -1,0 +1,23 @@
+- Language: low level of complex terms terms (1: best_sum, 1:all_sum, 3: all_sum_ev, 4:zero-shot)
+All_sum: explaining the difficult terms and uses easy language, mentioning “unsupervised embedding learning” in the last sentence but not explaining it
+all_sum_ev: “computer vision”, “feature space”, “image augmentation”, mentioning “unsupervised embedding learning” in the last sentence but not explaining it
+best_sum: mentioning data_augmentation and explaining it, mentioning “unsupervised embedding learning” in the last sentence but not explaining it. It uses easy understandable language
+Zero-shot: “massive-scale labels”, “computer vision tasks” 
+
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: all_sum_ev, 1: all_sum, 1: best_sum, 4: zero-shot)
+Zero-shot: no clear structure, as is discusses the results in the beginning of the summary. 
+
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: zero-shot, 2:all_sum, 3:best_sum, 4: all_sum_ev)
+
+Best_sum: explaining unsupervised learning, reasoning the reason for unsupervised learning. It doesn’t mention/explains AND
+all_sum_ev: mentioning the application of image labeling. It doesn’t explains/mention AND
+All_sum: explains AND, but doesn’t explain/mention augendation
+Zero-shot: doesn’t explain/mention AND, mentions UE-loss
+
+- Confusing language: vague language like “They fixed a thing called loss scaling”  (1: all_sum_ev, 1: zero-shot, 1: all_sum, 1: best_sum)
+best_sum: These (0), they (0)
+all_sum: These (0), they (0)
+zero-shot: These (0), they (0)
+all_sum_ev: These (0), they (0)
+
+There are also no other vague words in the summaries

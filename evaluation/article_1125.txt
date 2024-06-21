@@ -1,0 +1,27 @@
+Aspects:
+- Language: low level of complex terms (1:chatgpt, 2: claude, 3: cohere)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: chatgpt, 2: claude, 3:cohere)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1:claude, 2:chatgpt, 3:cohere)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:Cohere, 2:Claude, 2:Chatgpt) 
+ChatGPT: These (2), they (0)
+Claude: These (1), they (1)
+Cohere: These (1), they (0)
+
+
+Important topics: 
+- Adaptive Curriculum Learning loss: Curriculum Learning and face recognition in an adaptive manner
+- Convolutional Neural Networks
+- margin-based variants (explicit and implicit)
+- Traditional CL: samples are ordered by the corresponding difficultness (CurricularFace: random selected) and relative importance between easy and hard samples is dynamic 
+
+
+Chatgpt: It contains a good explanation of CurricularFace and introduction of the use of CNN for face recognition, easy understandable language and mentioning one of the difference with traditional CL. However, it is  explicitly mentioning target audience and is missing a more detailed explanation of how CurricularFace is different from traditional models.
+
+Cohere: It is mentioning both differences between traditional CL and CurricularFace. However, the phrases "discriminability of features" and "flexible decision boundary" are difficult to understand. Furthermore "through experiments on facial benchmarks" is not clearly explained in the summary. It is also missing structure. 
+
+Claude: It contains a good introduction of the topic, explaining difference with traditional CL and clear explanation how CurricularFace works. However, it is mentioning 'convergence issues' but does not explain this. Furthermore, the explanation of modulation function might be difficult to understand for high school students. 
+
+Overall rank: 1: chatgpt, 2:claude, 3: cohere
+
+Evaluation
+Chatgpt might miss some details in the explanation but explains everything very easily understandable. Claude uses easy language, but is not explaining some difficult concepts or explains concepts that might be difficult for high school students to understand. Cohere uses scientific writing which makes it difficult to understand, especially for high school students 

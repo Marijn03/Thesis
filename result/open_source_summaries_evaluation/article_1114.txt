@@ -1,0 +1,19 @@
+- Language: low level of complex terms (1: all_sum_ev, 2: zero-shot, 3: best_sum, 4: all_sum)
+best_sum: uses difficult words like “olfactory systems”, “networks quantitatively recapitulate the structures”, “glomeruli and sparse and random connectivity”, 
+all_sum: uses difficult words like “olfactory systems”, “networks quantitatively recapitulate the structures”, “glomeruli and sparse and random connectivity”, “formation of glomeruli and the sparse and random connectivity in the networks”, “evolutionary convergence of olfactory circuits”
+zero-shot: difficult word “olfactory systems”, “quantitatively recapitulated the structures”, “formation of glomeruli and sparse and random connectivity”
+all_sum_ev: easy understandable summary
+
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: all_sum_ev , 2: zero-shot, 4: all_sum, 4: best_sum)
+best_sum: more difficult words and no conjunctions
+all_sum: more difficult words and no conjunctions
+zero-shot: the study has a clear structure through use of conjunctions but uses more difficult words compared to all_sum_ev
+all_sum_ev: easy understandable summary by paraphrasing the concepts. 
+
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: best_sum, 1: all_sum, 1: zero-shot, 4: all_sum_ev)
+best_sum, all_sum, zero-shot contain the same amount of detail whereas all_sum_ev provides a less detailed overview
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: best_sum, 1: all_sum, 3: zero-shot, 4: all_sum_ev)
+best_sum: These (3), they (1)
+all_sum: These (3), they (1)
+zero-shot: These (4), they (4)
+all_sum_ev: These (4), they (7)

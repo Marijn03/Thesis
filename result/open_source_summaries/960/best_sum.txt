@@ -1,0 +1,9 @@
+The document discusses a problem in artificial intelligence called reinforcement learning, where machines learn to make decisions by trial and error. The main challenge is to solve long-term problems where the rewards are rare and delayed. The authors propose a new approach called Hierarchical Decompositional Reinforcement Learning (HiDe) that breaks down the problem into smaller, more manageable tasks. This approach allows for better generalization to new environments and the transfer of learned skills to different agents.
+
+The authors use a maze navigation task to test their approach, where the goal is to reach a target while avoiding obstacles. They show that their method can generalize to new environments and transfer the learned skills to different agents. The authors also highlight the importance of separating the planning and control layers in the hierarchy to achieve better generalization.
+
+The main entities in this document are the reinforcement learning agents, the maze environments, and the hierarchical layers. The important dates mentioned are not explicitly stated, but the authors refer to previous works in the field of reinforcement learning.
+
+The events happening in this document are the development of the Hierarchical Decompositional Reinforcement Learning (HiDe) approach, the testing of this approach on a maze navigation task, and the demonstration of its generalization and transfer capabilities.
+
+The result of these events is the development of a new approach to reinforcement learning that can solve long-term problems with sparse rewards and generalize to new environments.

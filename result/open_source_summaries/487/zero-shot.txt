@@ -1,0 +1,9 @@
+In the real world, it's common for the data we test a machine learning model with to be different from the data the model was trained on. This is called an "out-of-distribution" (OOD) sample. To detect OOD samples, researchers have developed a new type of machine learning model called a generative classifier. This model is different from traditional classifiers because it doesn't just focus on the decision boundary between classes, but also tries to model the distribution of each class. This allows the model to calculate a confidence score for each sample, which can be used to detect OOD samples. The researchers tested their model on various types of data, including images and tables, and found that it outperformed other state-of-the-art methods in detecting OOD samples while maintaining good classification accuracy for in-distribution samples.
+
+The important entities in this document are the machine learning models, the data they are trained and tested on, and the concept of out-of-distribution samples.
+
+The important dates mentioned in the document are not explicitly stated, but the references provided at the end of the document are from 2014 to 2018.
+
+The events happening in this document are the development and testing of a new machine learning model, the generative classifier, and its comparison to other state-of-the-art methods.
+
+The result of these events is the creation of a more accurate and reliable machine learning model that can detect out-of-distribution samples, which has potential applications in various fields such as image and speech recognition, natural language processing, and more.

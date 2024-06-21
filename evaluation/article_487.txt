@@ -1,0 +1,28 @@
+Aspects:
+- Language: low level of complex terms (1:Chatgpt, 2: Cohere, 3:Claude)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: Claude, 2: Cohere, 3: Chatgpt)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: Claude, 2:Cohere, 3:Chatgpt)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:Claude, 1:Cohere, 3:Chatgpt) 
+ChatGPT: These (0), they (5)
+Claude: These (1), they (0)
+Cohere: These (0), they (1)
+
+
+Important topics: 
+- deep generative classifier, 
+- generative classifier aims to explicitly model class-conditional distributions as separable Gaussian distributions
+- Out-of-distribution (OOD)
+- we propose a novel objective to train DNNs with a generative (or distance) classifier which is capable of effectively identifying OOD test samples, 
+- based on the Euclidean distance between a test sample and the centers of the obtained class-conditional distributions, we can calculate how likely and how confidently the sample belongs to each class, 
+- proposed classifier distinguishes OOD samples more accurately than the state-of-the-art method
+
+Chatgpt: The phrase 'ideas from statistics and computer science' is vague. The reference of 'new program' to deep generative classifier is not immediately clear. It is missing explanation Out-of-distribution (OOD). It is missing method in summary. 
+
+Cohere: It is not mentioning OOD. 
+
+Claude: It is explaining OOD and the used method. However, the phrase "Gaussian distributions in the latent space" is difficult to understand. Furthermore, the sentence "By measuring the distance of a test sample from these class distributions, the model can better identify OOD samples while still accurately classifying in-distribution data" is also quite difficult to comprehend. 
+
+Overall rank: 1: Cohere, 2: Claude, 3: Chatgpt
+
+Evaluation
+Chatgpt wrote quite easy understandable summary, but it is also missing detail. Cohere is not mentioning the term OOD, but does explain the concept, uses easy understandable language and contains a certain level of detail. Claude is mentioning all important concepts, but uses difficult sentence construction (more scientific) in the summary.

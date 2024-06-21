@@ -1,0 +1,32 @@
+The document discusses the importance of designing effective loss functions for face recognition systems. The authors propose a new loss function called CurricularFace, which adapts the importance of easy and hard samples during different training stages. This approach is inspired by the way humans learn, where easy tasks are learned first and then harder tasks are tackled. The authors use a novel modulation coefficient function to adjust the weights of hard samples in each mini-batch, making it more effective than previous methods.
+
+The authors compare their approach to two existing methods, ArcFace and SV-Arc-Softmax, and show that their method outperforms them on popular facial benchmarks. They also discuss the limitations of these existing methods, such as not explicitly emphasizing the importance of hard samples and not adapting to the difficulty of samples during training.
+
+The authors also mention that their method is easy to implement and robust to converge, making it a practical solution for face recognition systems. The document concludes by suggesting future research directions, such as designing better functions for negative cosine similarity and investigating the effects of noise samples.
+
+The important entities in this document are:
+
+* Face recognition systems
+* Loss functions
+* Easy and hard samples
+* Modulation coefficient function
+* ArcFace and SV-Arc-Softmax
+* CurricularFace
+
+The important dates in this document are:
+
+* None mentioned
+
+The events happening in this document are:
+
+* The authors propose a new loss function called CurricularFace
+* They compare their approach to existing methods
+* They show the effectiveness of their method on popular facial benchmarks
+* They discuss the limitations of existing methods
+* They suggest future research directions
+
+The result of these events is:
+
+* The development of a new and effective loss function for face recognition systems
+* The demonstration of the superiority of CurricularFace over existing methods
+* The suggestion of future research directions to improve the method further

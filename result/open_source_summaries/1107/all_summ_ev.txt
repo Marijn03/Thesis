@@ -1,0 +1,11 @@
+The document discusses a problem in computer vision, where convolutional neural networks (CNNs) struggle to recognize objects with geometric variations. This is because the networks are not aware of these variations and therefore waste model and data capacity. To overcome this issue, researchers have been working on deformation modeling, which involves reconfiguring the data to make it easier for the network to recognize. However, this approach is not effective because it doesn't directly adapt the "effective receptive field" (ERF), which is the actual contribution of each pixel to the output.
+
+The authors of this document propose a new approach called Deformable Kernels (DKs), which directly adapts the ERF by resampling the kernel space. This is done by learning free-form offsets on kernel coordinates to deform the original kernel space towards specific data modalities. The authors justify their approach with theoretical results, which show that the ERF is strictly determined by data sampling locations and kernel values.
+
+The authors evaluate their approach using standard base models on image classification and object detection tasks, and find that it performs favorably against prior works that adapt during runtime. They also show that their approach can work orthogonally and complementarily with previous techniques.
+
+The important entities in this document are convolutional neural networks, deformation modeling, and Deformable Kernels (DKs). The important dates mentioned are not specific dates, but rather references to previous works and theories.
+
+The events happening in this document are the development of deformation modeling, the limitations of previous approaches, and the proposal of Deformable Kernels (DKs) as a solution to the problem.
+
+The result of these events is the development of a new approach to deformation modeling that directly adapts the effective receptive field (ERF) of convolutional neural networks, which can improve their performance on tasks such as image classification and object detection.

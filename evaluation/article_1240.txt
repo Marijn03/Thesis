@@ -1,0 +1,29 @@
+Aspects:
+- Language: low level of complex terms (1:chatgpt, 2:claude, 3:cohere)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1:claude, 1:chatgpt, 3:cohere)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1:claude, 2:cohere, 3:chatgpt)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:Claude, 2:cohere, 3:chatgpt) 
+ChatGPT: These (0), they (2)
+Claude: These (0), they (0)
+Cohere: These (0), they (1)
+
+
+Important topics: is using easy language 
+- negative transfer
+- An archetypal model is deceived by the co-occurrence of such unrelated, yet easily detectable cues of habitat over the animal's appearance features such as complex fur patterns.
+- in this paper we depart from the direction of regularization-based approaches and examine methods inspired from a domain-adaptation viewpoint to propose an adversarial training-based formulation. 
+- adversarial learning is the natural answer to prevent negative transfer
+
+Chatgpt: It is missing to explain the method performed: "adversarial training, which helps them focus on the right information". The usefulness of the findings by saying "This could lead to smarter computers" is too general. It is not mentioning the results from the paper.
+
+Cohere: 
+From the following sentence "By treating this as a multi-task learning problem, they guide the model to focus on the main classification task while ignoring distracting auxiliary tasks." It is not explaining what "multi-task learning problem" and "distracting auxiliary tasks" means.
+
+Claude: It contains a good and easy explanation of concepts (eg adversarial training) and contains a clear conclusion of the findings ("improve the generalization of machine learning models"). 
+
+Overall rank: 1: Claude, 2: chatgpt, 3: cohere
+
+Evaluation
+Claude has a good and easy explanation of concepts (eg adversarial training) and a clear conclusion of the findings ("improve the generalization of machine learning models")
+Chatgpt is also using easy understandable language but it does not explain how adversarial training is peformed, significance of findings is too general and not mentioning the results
+Cohere is using lots of complex terms and sometimes not even explaining them.

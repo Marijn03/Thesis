@@ -1,0 +1,9 @@
+Neural networks and machine learning models are trained on data to be able to make predictions or classifications. A common way to train them is using an approach called cross-entropy loss minimization. This research shows that when training linear classifiers (simple machine learning models) on data that lies in a low-dimensional space using cross-entropy loss, the decision boundary learned can end up being very close to the training data points. 
+
+This is an issue because it means the model has a small margin of error - it can misclassify data points that are only slightly different from the training data. This vulnerability to small perturbations is related to the phenomenon of "adversarial examples" where machine learning models fail on inputs that seem identical to humans.
+
+The researchers propose an alternative training method called "differential training" that aims to maximize the margin or distance between the decision boundary and data points of different classes. They prove that differential training achieves the maximum possible margin for linear classifiers.
+
+Increasing the margin could make models more robust to adversarial attacks and perturbations in the data. The low dimensionality of data is identified as one root cause for why cross-entropy training yields small margins. The researchers suggest differential training may help neural networks also become more robust against adversarial examples.
+
+Overall, this work analyzes an important issue in machine learning, proposes a new training approach, and provides insights into factors like low dimensionality that affect model robustness and generalization.

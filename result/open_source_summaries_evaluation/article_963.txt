@@ -1,0 +1,18 @@
+The best_sum contains only 1 sentence of summary, whereas the max is 2 sentences. The rest of the text is a list of the answers to the questions in the prompt
+
+- Language: low level of complex terms (1: all_sum_ev, 1: best_sum, 3: all_sum, 4: zero-shot)
+best_sum: difficult explanation of DGI
+all_sum: not explaining “mutual information maximization”, “graph-structured data”
+zero-shot: “graph-structured data”, “mutual information between local patch representations and high-level summaries of the graph”, “convolutional network architectures.”
+all_sum_ev: “local patches of nodes”
+
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1:all_sum_ev , 1:all_sum , 1: zero-shot , 1:best_sum)
+Due to the short summaries (max 2 sentences were allowed), is there no big difference in clarity and coherence.
+
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: zero-shot, 2: all_sum_ev, 3:all_sum , 4:best_sum)
+
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: all_sum, 1: zero-shot , 3: best_sum, 3: all_sum_ev)
+best_sum: These (1), they (0)
+all_sum: These (0), they (0)
+zero-shot: These (0), they (0)
+all_sum_ev: These (1), they (0)

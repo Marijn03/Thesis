@@ -1,0 +1,25 @@
+Aspects:
+- Language: low level of complex terms (1: chatgpt, 2: Cohere, 3: Claude)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1:Chatgpt, 2: Cohere, 3: Claude)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: Cohere, 2:Claude, 3:Chatgpt)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:Claude, 1:Cohere, 3:Chatgpt) 
+
+Important topics: 
+- generalize to unseen environments and to transfer different layers of the policy to other agents
+- Hierarchical Decompositional Reinforcement Learning
+- continuous control tasks 
+- bad performance unseen events -> true separation of planning and low-level control 
+- two main problems: namely functional decomposition of HRL architectures in navigation-based domains and generalization of RL agents to unseen environments 
+- the proposed decomposition of policy layers is effective and can generalize to unseen environments. 
+
+Chatgpt: 
+ChatGPT uses clear language and a coherent structure. However, the phrase "in tricky environments" is vague. "They've come up with something called HRL" is not discussed paper but it is research that came up with this idea. The paper discusses HiDe, but that's not clear from this summary. It doesn't specify the "problems to solve" with HRL. It 'tasks into smaller, easier pieces' could be replaced by mentioning the different levels
+
+Cohere: It explains RL clearly, the use of HiDe is explained in comparison with HRL, explains the levels of HiDe. However it is explaining the working of different layers makes it quite complex to understand. Furthermore, it is explicitly mentioning the target audience.
+
+Claude: It is explaining explaining HRL and the use of HiDe is explained in comparison with HRL. However, the 'evaluated on complex continuous control tasks, demonstrating successful navigation and improved generalization' is a difficult sentence.
+
+Overall rank: 1: chatgpt, 2: Cohere, 3: Claude
+
+Evaluation
+ChatGPT uses clear language and a coherent structure, although it lacks in detail and specificity regarding the problems addressed by Hierarchical Reinforcement Learning (HRL). Cohere follows closely behind, offering a clear explanation of RL concepts and the HiDe framework, but it could improve by simplifying the explanation of the different layers. Claude falls behind due to its challenging language. Overall, ChatGPT excels in simplicity and clarity while Cohere and Claude made not easy understandable summaries.

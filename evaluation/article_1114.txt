@@ -1,0 +1,27 @@
+Aspects:
+- Language: low level of complex terms (1:chatgpt , 2: Claude, 2:Cohere)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1:Chatgpt, 2:claude, 3:cohere)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1:claude, 2:cohere, 3:chatgpt)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:Claude, 2:cohere, 3:chatgpt) 
+ChatGPT: These (6), they (1)
+Claude: These (1), they (1)
+Cohere: These (3), they (1)
+
+
+Important topics: 
+- optimality of evolutionary design in olfactory circuits by studying artificial neural networks trained to sense odors
+- neural networks quantitatively recapitulate structures inherent in the olfactory system
+- to train an artificial neural network to classify odors and then analyze the anatomical and functional structures that emerge after training.
+- stochastic gradient descent 
+
+Chatgpt: It is a good and clear summary which includes method (not too detailed) and results  
+
+Cohere: It is mentioning 'expansion layer' but it is not explaining it. So it assumes the reader knows this. It is also explicitly mentioning target audience which is not useful for the target audience.
+
+Claude: The phrase 'This work explains' feels bit random. It is also mentioning 'expansion layer' but it is not explained. So it assumes the reader knows these words
+
+Overall rank: 1:chatgpt, 2:claude, 3: cohere
+
+Evaluation
+ChatGPT is using clear and concise language, providing a comprehensive summary that includes both method and results without overly complex terms. Claude has clear explanations but slightly less detail, while Cohere falls behind due to assumptions about the reader's knowledge (does not explain difficult terms) and explicit mention of the target audience. Overall, ChatGPT has best summary because of the balance between clarity, detail and accessibility for high school students.
+

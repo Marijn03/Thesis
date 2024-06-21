@@ -1,0 +1,19 @@
+- Language: low level of complex terms (1:zero-shot, 2:all_sum, 3: all_sum_ev, 4:best_sum)
+
+Zero-shot: not much difficult words and if so it explains the word like: inference (i.e., processing time) 
+All_sum: “computational cost”
+Best_sum: “scale-invariant”, “augmentation or modifying the network structure”
+all_sum_ev: “artificially enlarging the training dataset or modifying the network structure” not explaining this
+
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: all_sum_ev, 1: zero-shot, 1: all_sum, 1: best_sum)
+The summaries had the same structure
+
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: best_sum, 2: all_sum, 3: zero-shot, 3: all_sum_ev ) 
+Best sum gives example of accuracy, all_sum mentioning the time it is more efficient,  zero-shot and all_sum_ev both mention the tradeoff in time and accuracy
+
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: best_sum, 1: all_sum, 3: zero-shot, 4: all_sum_ev ) 
+
+best_sum,: These (1), they (1)
+all_sum: These (1), they (1)
+zero-shot: These (1), they (2)
+all_sum_ev: These (2), they (3)

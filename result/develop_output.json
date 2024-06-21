@@ -1,0 +1,78 @@
+[
+    {
+        "id_example": 134,
+        "id_summarized_art": 531,
+        "summary": "In this study, researchers looked at how neural networks can misclassify inputs that are slightly different from their training data. They found that this is because the training process uses a loss function called cross-entropy, which can lead to a small margin between the decision boundary and the training data. This makes neural networks vulnerable to adversarial examples, which are inputs that are designed to trick the network into making a mistake.\n\nThe researchers also introduced a new training method called differential training, which can improve the margin and make neural networks more robust against adversarial examples. They compared their results with other related works and found that their method can achieve better performance.\n\nOverall, this study highlights the importance of understanding how neural networks work and how they can be improved to make them more robust against adversarial examples.",
+        "bert-score": {
+            "claude": {
+                "precision": [
+                    0.8649305701255798
+                ],
+                "recall": [
+                    0.8123853206634521
+                ],
+                "f1": [
+                    0.837834894657135
+                ],
+                "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.40.2)"
+            }
+        }
+    },
+    {
+        "id_example": 1713,
+        "id_summarized_art": 531,
+        "summary": "Neural networks are a type of computer program that can learn from data and make predictions. In this study, researchers looked at how neural networks can be trained to classify data into two categories. They found that when using a certain type of loss function called cross-entropy loss, the neural network can learn a decision boundary that is close to the training data. This means that the neural network may not be able to correctly classify new data that is slightly different from the training data. The researchers also introduced a new method called differential training, which can help improve the margin of the neural network. This means that the neural network can be more accurate and robust against adversarial examples. The study also highlights the importance of understanding the decision boundaries of neural networks and how they can be improved to make them more reliable.\n\nPlease note that this summary is not explicitly listing the questions and answers, but rather embeds the answers within the summary itself.",
+        "bert-score": {
+            "claude": {
+                "precision": [
+                    0.8435344696044922
+                ],
+                "recall": [
+                    0.8067809343338013
+                ],
+                "f1": [
+                    0.8247484564781189
+                ],
+                "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.40.2)"
+            }
+        }
+    },
+    {
+        "id_example": 757,
+        "id_summarized_art": 531,
+        "summary": "Neural networks are powerful tools for classification tasks, but they can be vulnerable to adversarial examples, which are inputs that are slightly different from the training data but can cause the network to misclassify. In this study, researchers investigated the decision boundary of a linear classifier trained with cross-entropy loss and gradient descent algorithm. They found that the decision boundary can be very close to the training dataset, leading to poor margins. This means that the network can be easily fooled by small changes in the input data. To address this issue, the researchers introduced a new training method called differential training, which can improve the margin between the decision boundary and the training dataset. They also discussed the implications of their results for robust optimization and the use of support vector machines (SVMs). Overall, the study highlights the importance of understanding the decision boundary of neural networks and developing robust training methods to improve their performance.",
+        "bert-score": {
+            "claude": {
+                "precision": [
+                    0.8553470969200134
+                ],
+                "recall": [
+                    0.817177414894104
+                ],
+                "f1": [
+                    0.8358267545700073
+                ],
+                "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.40.2)"
+            }
+        }
+    },
+    {
+        "id_example": 1468,
+        "id_summarized_art": 531,
+        "summary": "Neural networks are powerful tools for classification tasks, but they can sometimes misclassify inputs that are slightly different from their training data. This is because the decision boundaries of neural networks can be close to their training dataset. Researchers have studied the binary classification of linearly separable datasets and found that linear classifiers can also have decision boundaries that lie close to their training dataset. To improve the margin between the training points and the decision boundary, the researchers introduced a new training paradigm called differential training. Differential training uses a loss function defined on pairs of points from each class, which can help to improve the margin. The researchers also found that differential training can make neural networks more robust against adversarial examples. Overall, the study highlights the importance of considering the margin between the decision boundary and the training dataset when training neural networks.",
+        "bert-score": {
+            "claude": {
+                "precision": [
+                    0.8700496554374695
+                ],
+                "recall": [
+                    0.8104180693626404
+                ],
+                "f1": [
+                    0.839175820350647
+                ],
+                "hashcode": "distilbert-base-uncased_L5_no-idf_version=0.3.12(hug_trans=4.40.2)"
+            }
+        }
+    }
+]

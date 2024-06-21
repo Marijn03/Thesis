@@ -1,0 +1,7 @@
+The document discusses a problem in machine learning called "negative transfer," where a model learns to focus on irrelevant information in the training data instead of the relevant information. This can happen when there are multiple tasks or features in the data that are related to each other, but not directly related to the task the model is trying to learn. The document shows that this problem can occur even with simple models, such as linear models, and that it can be a major obstacle to achieving good performance on the task.
+
+The authors of the document propose a new approach to mitigate negative transfer, called adversarial training, which involves training the model to ignore the irrelevant information. They show that this approach can be effective in a variety of tasks, including image classification and object detection.
+
+The document also discusses the importance of domain expertise and explainability in machine learning, and how these can be used to help mitigate negative transfer.
+
+Overall, the document highlights the importance of careful consideration of the training data and the need for robust models that can generalize well to new data.

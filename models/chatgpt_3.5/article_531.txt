@@ -1,0 +1,7 @@
+In this study, researchers looked at how computers make decisions, specifically in tasks like sorting things into categories. They found that sometimes, the way computers are trained can make them make mistakes, even with things that are very similar to what they've seen before. This can be a problem in things like telling pictures apart or identifying spam emails.
+
+They found that even simple methods for teaching computers, like using numbers to represent things and giving them rules to follow, can sometimes lead to mistakes. One big reason for this is that the computer's 'rules' might not match up perfectly with what it's trying to learn.
+
+The researchers tried out different ways of teaching computers, and they found one that worked better for avoiding mistakes. This new method, called 'differential training,' helps computers better understand the differences between things that seem very similar. This could be really important for things like making self-driving cars safer or keeping our online accounts secure.
+
+Overall, this study shows that there's still a lot to learn about how computers learn and make decisions. By trying out new methods, we can make them smarter and more reliable for all kinds of tasks.

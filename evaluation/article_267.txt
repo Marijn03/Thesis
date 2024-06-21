@@ -1,0 +1,21 @@
+Aspects:
+- Language: low level of complex terms (1:Claude, 1:Chatgpt, 1:Cohere)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1:claude, 1:chatgpt, 3: Cohere)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1:Claude, 2:Chatgpt, 3: Cohere)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:Claude, 2: chatgpt, 3: Cohere) 
+ChatGPT: These (0), they (3)
+Claude: These (0), they (0)
+Cohere: These (1), they (0)
+
+Important topics: CNN, describe and evaluate a novel mixed-size training regime that mixes several image sizes at training time, CNN sensitivity to image size limit practical use cases and need to match training image size, MixSize: Reducing image size sensitivity, Faster inference, Faster training vs. high accuracy
+
+Chatgpt: It is mentioning the important concepts of CNN, Mixsize helps struggle with different images sizes, Mixsize more efficient, conclusion what makes results of paper interesting and introduction topic in beginning of summary.
+
+Cohere: It is mentioning the important concepts of CNN, Mixsize helps struggle with different images sizes and Mixsize more efficient. However, 'various fields' is vague (must be computer science), last two sentences both begin with "this" which reduces the readability. There is an assumption stated taht CNNs are more accessible and effective for a wider range of applications.
+
+Claude: It is mentioning the important concepts of CNN, Mixsize helps struggle with different images sizes, mentioning the percentages of accuracy, specifying the efficiency and reasonable effect of MixSize.
+
+Overal rank: 1: Claude, 2: chatgpt, 3: Cohere
+
+Evaluation
+Claude contains clear structure, detailed explanation of experimental results, and precise language. Claude effectively addresses all important topics, including CNN, MixSize benefits, and efficiency, while also providing specific metrics like accuracy percentages. ChatGPT's summary comes second, offering a good balance of detail and clarity. It covers key topics such as CNN and the advantages of MixSize but lacks some specificity in experimental results and significance. Cohere's summary ranks third primarily due to its vague language and lack of specificity in experimental results and significance. While it covers the important topics, it could benefit from clearer language and more precise detail.

@@ -1,0 +1,25 @@
+- Language: low level of complex terms (1: all_sum, 1: all_sum_ev, 3: zero-shot , 3: best_sum)
+best_sum: difficult word “customized data points”
+all_sum: uses understandable language
+zero-shot: easy understandable language, but uses the words “higher capacity (more parameters)” which are not common terms for high school students
+all_sum_ev: explains higher parameter/bit-widths, uses easy understandable language
+
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: all_sum, 1: all_sum_ev, 3: best_sum, 4: zero-shot)
+best_sum: it reads less fluently, but not explaining “data augmentation”
+all_sum: really clear structure, everything is explained
+zero-shot: it is a coherent story of teaching machine learning models. It starts by giving a real life example of how teachers learn student to make data augmentation understandable. But it is not explaining “data augmentation”
+all_sum_ev: explaining “data augmentation”
+
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: best_sum, 2: all_sum , 2: all_sum_ev, 4: zero-shot)
+best_sum: detailed discussion on Knowledge Distillation, including comprehensive coverage of the problem, solution (data augmentation agents), experimental validation, and comparative analysis with existing methods.
+all_sum: explanation of KD and the proposed solution of data augmentation agents. It lacks some specific experimental details and depth in comparative analysis
+zero-shot: introduces the concept through analogy but lacks technical specifics, experimental details, and comparative analysis found in the other summaries. 
+all_sum_ev: explaining KD and introducing data augmentation agents. It touches on testing and effectiveness improvement
+
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: all_sum_ev, 2: all_sum , 2: best_sum , 4: zero-shot)
+best_sum: These (1), they (2)
+All occurences of these found in the list of answers.
+all_sum: These (3), they (1)
+All occurences of these found in the list of answers.
+zero-shot: These (0), they (4)
+all_sum_ev: These (2), they (0)

@@ -1,0 +1,21 @@
+- Language: low level of complex terms (1: best_sum, 1: all_sum, 3: all_sum_ev , 4: zero-shot)
+best_sum: easy understandable language, but using “convolutional neural networks”
+all_sum: using the words "forward locking," "backward locking," and "update locking", but explains these words more or less
+zero-shot: mentioning difficult words like "forward locking," "backward locking," and "update locking", “non-convex problems” 
+all_sum_ev: uses difficult word “non-convex problems” 
+
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: all_sum, 2: zero-shot, 2: all_sum_ev, 4: best_sum)
+best_sum: clear structure but doesn’t explain “convolutional neural networks”
+all_sum_ev: doesn’t explain “non-convex problems”
+zero-shot: doesn’t explain “non-convex problems”
+all_sum: clear structure and coherence
+
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: all_sum, 4: zero-shot, 4: all_sum_ev, 4: best_sum)
+all_sum: really short summary, but it meets the sentence limit of 2 sentences whereas other summaries contain 3 or even 4 summaries
+the zero-shot, all_sum_ev and best_sum have the same amount of detail as they explain the same concepts
+
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: all_sum, 4: zero-shot, 4: all_sum_ev, 4: best_sum)
+best_sum: These (2), they (1)
+all_sum: These (0), they (0)
+zero-shot: These (2), they (1)
+all_sum_ev: These (2), they (1)

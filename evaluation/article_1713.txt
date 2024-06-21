@@ -1,0 +1,28 @@
+Aspects:
+- Language: low level of complex terms (1:chatgpt, 1:claude , 3:Cohere)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1:claude, 1:chatgpt, 3:Cohere)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1:chatgpt, 2:Cohere, 3:claude)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:cohere, 1:claude, 3:chatgpt) 
+ChatGPT: These (1), they (1)
+Claude: These (0), they (0)
+Cohere: These (0), they (0)
+
+
+Important topics: 
+- Complex-value neural networks and real-valued neural networks 
+- This paper explores the performance of complex-valued multi-layer perceptrons (MLP) with varying depth and width in consideration of the number of parameters and choice of activation function on benchmark classification tasks
+- two methods to define comparable networks: A fixed number of real-valued neurons per layer or a fixed budget of real-valued parameters
+- simple classification tasks, complex neural networks perform equal to or slightly worse than real-value neural networks. However, when specialised architecture is used, complex-valued neural networks outperform real-valued neural networks. 
+
+Chatgpt: It is an easy understandable summary including introduction (use of complex valued neural network), method in paper and findings of paper. 
+
+Cohere: 
+Is is saying 'like in signal processing' but it is not explaining this term (also not an important term in paper). The phrase 'performance of complex-valued multi-layer perceptrons (MLPs) on classification tasks' is also too difficult to understand for high school students.
+
+Claude: 
+It contains hallucination as it is explaining neural networks as "human brain capable of learning patterns from data" but this is not stated in the text. It does also not mention the method of the research.
+
+Overall rank: 1: chatgpt, 2: claude, 3: cohere
+
+Evaluation
+ChatGPT covers effectively all important topics in a clear and coherent manner while using simple language. Claude's summary is ranked second because it hallucination in explaining neural networks in general and lacks detail in mentioning the research method, but it still provides a relatively clear explanation. Cohere's summary is ranked the lowest because it fails to easily explain important terms and concepts (uses a lot of jargon in the summary without explaining).

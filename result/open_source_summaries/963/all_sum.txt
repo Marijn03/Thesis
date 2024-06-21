@@ -1,0 +1,1 @@
+The Deep Graph Infomax (DGI) approach is a new way to learn node representations in graph-structured data without any labels. By using a technique called mutual information maximization, DGI creates patch representations of subgraphs centered around important nodes, which can then be used for various tasks such as node classification.

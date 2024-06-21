@@ -1,0 +1,401 @@
+[
+    {
+        "id": 487,
+        "rank": [
+            {
+                "model": "Cohere",
+                "rank": 1,
+                "evaluation": "It is not mentioning OOD."
+            },
+            {
+                "model": "Claude",
+                "rank": 2,
+                "evaluation": " It is explaining OOD and the used method. However, the phrase 'Gaussian distributions in the latent space' is difficult to understand. Furthermore, the sentence 'By measuring the distance of a test sample from these class distributions, the model can better identify OOD samples while still accurately classifying in-distribution data' is also quite difficult to comprehend. "
+            },
+            {
+                "model": "Chatgpt",
+                "rank": 3,
+                "evaluation": "The phrase 'ideas from statistics and computer science' is vague. The reference of 'new program' to deep generative classifier is not immediately clear. It is missing explanation Out-of-distribution (OOD). It is missing method in summary. "
+            }
+        ],
+        "evaluation": "Chatgpt wrote quite easy understandable summary, but it is also missing detail. Cohere is not mentioning the term OOD, but does explain the concept, uses easy understandable language and contains a certain level of detail. Claude is mentioning all important concepts, but uses difficult sentence construction (more scientific) in the summary."
+    },
+    {
+        "id": 1213,
+        "rank": [
+            {
+                "model": "Claude",
+                "rank": 1,
+                "evaluation": "It is not mentioning backpropagation and not mentioning forward, backward and update locking"
+            },
+            {
+                "model": "Chatgpt",
+                "rank": 2,
+                "evaluation": "It is not mentioning backpropagation algorithm and not explaining forward, backward and update locking. "
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "It is not explaining backpropagation and not explaining forward, backward and update locking."
+            }
+        ],
+        "evaluation": "Claude mentions the problem the research is trying to address (without using words like forward, backward and update locking) and mentions DSP. This makes it easier for high school students to understand because they are not left with unexplained difficult words. Cohere is mentioning most of the concepts, but does not explain them which results in a harder understanding of the topic. Chatgpt has the same problem but with less examples."
+    },
+    {
+        "id": 1114,
+        "rank": [
+            {
+                "model": "Chatgpt",
+                "rank": 1,
+                "evaluation": "It is a good and clear summary which includes method (not too detailed) and results"
+            },
+            {
+                "model": "Claude",
+                "rank": 2,
+                "evaluation": " The phrase 'This work explains' feels bit random. It is also mentioning 'expansion layer' but it is not explained. So it assumes the reader knows these words"
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "It is mentioning 'expansion layer' but it is not explaining it. So it assumes the reader knows this. It is also explicitly mentioning target audience which is not useful for the target audience."
+            }
+        ],
+        "evaluation": "ChatGPT is using clear and concise language, providing a comprehensive summary that includes both method and results without overly complex terms. Claude has clear explanations but slightly less detail, while Cohere falls behind due to assumptions about the reader's knowledge (does not explain difficult terms) and explicit mention of the target audience. Overall, ChatGPT has best summary because of the balance between clarity, detail and accessibility for high school students."
+    },
+    {
+        "id": 267,
+        "rank": [
+            {
+                "model": "Claude",
+                "rank": 1,
+                "evaluation": "It is mentioning the important concepts of CNN, Mixsize helps struggle with different images sizes, mentioning the percentages of accuracy, specifying the efficiency and reasonable effect of MixSize."
+            },
+            {
+                "model": "Chatgpt",
+                "rank": 2,
+                "evaluation": "It is mentioning the important concepts of CNN, Mixsize helps struggle with different images sizes, Mixsize more efficient, conclusion what makes results of paper interesting and introduction topic in beginning of summary."
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "It is mentioning the important concepts of CNN, Mixsize helps struggle with different images sizes and Mixsize more efficient. However, 'various fields' is vague (must be computer science), last two sentences both begin with 'this' which reduces the readability. There is an assumption stated taht CNNs are more accessible and effective for a wider range of applications."
+            }
+        ],
+        "evaluation": "Claude contains clear structure, detailed explanation of experimental results, and precise language. Claude effectively addresses all important topics, including CNN, MixSize benefits, and efficiency, while also providing specific metrics like accuracy percentages. ChatGPT's summary comes second, offering a good balance of detail and clarity. It covers key topics such as CNN and the advantages of MixSize but lacks some specificity in experimental results and significance. Cohere's summary ranks third primarily due to its vague language and lack of specificity in experimental results and significance. While it covers the important topics, it could benefit from clearer language and more precise detail."
+    },
+    {
+        "id": 757,
+        "rank": [
+            {
+                "model": "Claude",
+                "rank": 1,
+                "evaluation": "It gives a clear explanation of concepts. There is a hallucination: 'to predict the next word in a sentence (language modeling)'. Text is only talking about 'language modeling as a pretraining task'. "
+            },
+            {
+                "model": "Cohere",
+                "rank": 1,
+                "evaluation": "It is explicitly mentioning target audience and the prompt which is makes summary worse."
+            },
+            {
+                "model": "Chatgpt",
+                "rank": 3,
+                "evaluation": "It is mentioning concept of contextualized word representation but not explicit mentioning it. There is a hallucination: 'to predict the next word in a sentence (language modeling)'. Text is only talking about 'language modeling as a pretraining task'. It is not explaining what research is about. Instead of the phrase 'some tasks benefit', it could have mentioned example like 'multitask training'. "
+            }
+        ],
+        "evaluation": "Claude and chatgpt both explained language modeling in a way that was not stated in the article. Claude explained the concepts in detail and structured way. Cohere and chatgpt are missing some detail."
+    },
+    {
+        "id": 1236,
+        "rank": [
+            {
+                "model": "Chatgpt",
+                "rank": 1,
+                "evaluation": "It is using easy language. However, the phrase 'contrastive loss function and encoded capsule pose vectors' is difficult to understand and not explained."
+            },
+            {
+                "model": "Claude",
+                "rank": 1,
+                "evaluation": "It is using easy language. However, the sentence 'A contrastive loss function is used to train the network to maximize the difference between capsules for different identities while minimizing it for the same identity' is not easy to understand as high school student."
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "The sentence 'The key innovation lies in their ability to perform dynamic routing, sending lower-level capsule outputs as input to parent capsules, achieving translation equivariance' contains difficult words which are not explained later in the summary (dynamic routing). The phrase 'crude routing operations' is not explained in summary and is difficult to understand."
+            }
+        ],
+        "evaluation": "All the three summaries have the same level of information load. However, claude and chatgpt are using easier language to explain the concepts which is important for high school students."
+    },
+    {
+        "id": 1189,
+        "rank": [
+            {
+                "model": "Claude",
+                "rank": 1,
+                "evaluation": "clear structure, using the methaphor of student and teacher from paper, good structure"
+            },
+            {
+                "model": "Chatgpt",
+                "rank": 2,
+                "evaluation": "It is using the metaphor from paper to explain research of paper which makes understanding the topic easier. However, it is not explaining what the difference between their method compared to traditional use of KD (the motivation behind using this method)"
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "It is using difficult words like 'data augmentation agents' and 'network quantization'. Furthermore, the sentence 'while generating tailored training data for improved comprehension' is also not easy too understand for a high school student."
+            }
+        ],
+        "evaluation": "Claude has clear structure and effective use of metaphor to explain the research, making it easy to understand. ChatGPT also uses the metaphor and clear language, although it lacks detail on the differences between the method proposed and traditional knowledge distillation, which helps to understand why this research is done. Cohere falls to the third position as it struggles with clarity, particularly with complex terms like 'data augmentation agents' and 'network quantization,' making it less accessible to a wider audience. "
+    },
+    {
+        "id": 134,
+        "rank": [
+            {
+                "model": "Claude",
+                "rank": 1,
+                "evaluation": "It is mentioning the concepts of weight-sharing, clear description of why and what the research is about, EDARTS outperforms previous methods, gives clear summary of the research of the paper (new algorithm and analysis if properties of this approach). The function of the sentence 'However, designing the architecture (structure) of these networks is a challenging problem.' is not clear"
+            },
+            {
+                "model": "Chatgpt",
+                "rank": 2,
+                "evaluation": "It is mentioning the concepts of weight-sharing, novel perspective on weight-sharing NAS and EDARTS outperforms previous methods. However it contains a hallucination: mentioning that weight-sharing helps to classify images (not stated in the text). The sentence 'Scientists are developing special algorithms to navigate the complex space of possible architectures' is not really important in context of paper. "
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "It is mentioning the concept of weight-sharing. It has a clear description of why and what the research is about and that EDARTS outperforms previous methods. However the sentence 'offering solutions rooted in non-convex non-Euclidean optimization' is difficult to comprehend. Furthermore it not great to mention the target audience explicitly: 'offering students valuable insights into the evolving field of computer science, specifically AI and machine learning.'"
+            }
+        ],
+        "evaluation": "Cohere uses difficult language/concepts and mentions target audience explicitly. Claude gives clear description of why and what the research is about and provides all important concepts. Chatgpt uses easier language than claude (eg explaining weight-sharing; claude:'way to extend the search space of possible architectures' vs chatgpt: 'which helps optimize neural networks for tasks like image classification and natural language processing'). However, it mentions that weight-sharing helps to classify images which is not stated in the text."
+    },
+    {
+        "id": 1240,
+        "rank": [
+            {
+                "model": "Claude",
+                "rank": 1,
+                "evaluation": "It contains a good and easy explanation of concepts (eg adversarial training) and contains a clear conclusion of the findings ('improve the generalization of machine learning models')."
+            },
+            {
+                "model": "Chatgpt",
+                "rank": 2,
+                "evaluation": "It is missing to explain the method performed: 'adversarial training, which helps them focus on the right information'. The usefulness of the findings by saying 'This could lead to smarter computers' is too general. It is not mentioning the results from the paper."
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "From the following sentence 'By treating this as a multi-task learning problem, they guide the model to focus on the main classification task while ignoring distracting auxiliary tasks.' It is not explaining what 'multi-task learning problem' and 'distracting auxiliary tasks' means."
+            }
+        ],
+        "evaluation": "Claude has a good and easy explanation of concepts (eg adversarial training) and a clear conclusion of the findings ('improve the generalization of machine learning models'). Chatgpt is also using easy understandable language but it does not explain how adversarial training is peformed, significance of findings is too general and not mentioning the results. Cohere is using lots of complex terms and sometimes not even explaining them."
+    },
+    {
+        "id": 26,
+        "rank": [
+            {
+                "model": "Chatgpt",
+                "rank": 1,
+                "evaluation": "It is mentioning the concepts: dropout, jumpout, dropout rates need to be tuned and improve performance using jumpout. However, it is not mentioning overfitting problem and dropout rates. It contains too much introduction and application. It is not explaining jumpout."
+            },
+            {
+                "model": "Cohere",
+                "rank": 2,
+                "evaluation": "It is mentioning problem overfitting, tuning, explaining jumpout, dropout, adaptive dropout rate and improve performance using jumpout. However it uses lot of technical terms."
+            },
+            {
+                "model": "Claude",
+                "rank": 2,
+                "evaluation": "It is mentioning the problem of overfitting, tuning, explaining jumpout, improved performance and adaptive dropout rate. However it is also using difficult terminology like 'sampling rates', 'rescales outputs', 'computational cost', 'innovating on fundamental techniques'."
+            }
+        ],
+        "evaluation": "Both Cohere and Claude were more in depth regarding the concepts. However, this made the comprehension of both summaries more difficult compared to the summary of chatgpt. High school students do not have any knowledge in this domain. That's why chatgpt receives the highest rank."
+    },
+    {
+        "id": 960,
+        "rank": [
+            {
+                "model": "Chatgpt",
+                "rank": 1,
+                "evaluation": "ChatGPT uses clear language and a coherent structure. However, the phrase 'in tricky environments' is vague. 'They've come up with something called HRL' is not discussed paper but it is research that came up with this idea. The paper discusses HiDe, but that's not clear from this summary. It doesn't specify the 'problems to solve' with HRL. It 'tasks into smaller, easier pieces' could be replaced by mentioning the different levels."
+            },
+            {
+                "model": "Cohere",
+                "rank": 2,
+                "evaluation": "It explains RL clearly, the use of HiDe is explained in comparison with HRL, explains the levels of HiDe. However it is explaining the working of different layers makes it quite complex to understand. Furthermore, it is explicitly mentioning the target audience."
+            },
+            {
+                "model": "Claude",
+                "rank": 3,
+                "evaluation": "It is explaining explaining HRL and the use of HiDe is explained in comparison with HRL. However, the 'evaluated on complex continuous control tasks, demonstrating successful navigation and improved generalization' is a difficult sentence."
+            }
+        ],
+        "evaluation": "ChatGPT uses clear language and a coherent structure, although it lacks in detail and specificity regarding the problems addressed by Hierarchical Reinforcement Learning (HRL). Cohere follows closely behind, offering a clear explanation of RL concepts and the HiDe framework, but it could improve by simplifying the explanation of the different layers. Claude falls behind due to its challenging language. Overall, ChatGPT excels in simplicity and clarity while Cohere and Claude made not easy understandable summaries."
+    },
+    {
+        "id": 531,
+        "rank": [
+            {
+                "model": "Claude",
+                "rank": 1,
+                "evaluation": "It is mentioning 'small margin of error' and also explaining what this means. However, it is not mentioning the gradient classifiers as cause for misclassification for adversarial examples"
+            },
+            {
+                "model": "Chatgpt",
+                "rank": 2,
+                "evaluation": "It is good that it is giving example to explain concept. However, 'specifically in tasks like sorting things into categories.' is not directly mentioned in the text. The phrase 'numbers to represent things and giving them rules to follow' is not clear. It is not mentioning the cause of misclassification. It is missing the term 'adversarial examples'. It does not discuss linear classifiers"
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "'pushing the decision boundary further away from the training data' difficult to comprehend. It is not mentioning the gradient classifiers as cause for misclassification for adversarial examples. It could have used paragraphs "
+            }
+        ],
+        "evaluation": "Chatgpt uses vague language 'sorting things into categories' and misses detail. Claude has a clear structure, explains difficult words and is detailed. Cohere is using difficult words (not explaining them), could have paragraphs but is explaining the important concepts."
+    },
+    {
+        "id": 479,
+        "rank": [
+            {
+                "model": "Claude",
+                "rank": 1,
+                "evaluation": "It is explaining RL IR, explaining overfitting, clear structure of addressing the problem and the proposed solution and mentioning combination of RL and supervised learning."
+            },
+            {
+                "model": "Chatgpt",
+                "rank": 2,
+                "evaluation": " It is making an real life example to explain the problem, method and result of article which makes it easy understandable. However, it is missing results from study, does not explicit mention overfitting, could be longer to contain more detail (contains 7 sentences instead of 9) and is not explaining IR."
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "It is explaining IR and RL, mentioning concept of agents in reinforcement learning are not robust, mentioning RL agent to overfit even when exposed to large training sets is quite visible. However, it is using difficult words like 'showcasing', 'customizable and diverse environments'. It is not explaining the word 'overfitting' or 'supervised learning'."
+            }
+        ],
+        "evaluation": "Cohere was too difficult and made assumptions while chatgpt could be more detailed (but was easy understandable which is important for high school students). Chatgpt for examples does not explicitly mention the term overfitting (an important concept in computer science) but does explain the concept. Claude had an clear structure, explained important concepts and was easy to read."
+    },
+    {
+        "id": 392,
+        "rank": [
+            {
+                "model": "Claude",
+                "rank": 1,
+                "evaluation": "It is explaining unsupervised learning, explaining super-AND, mentioning the different techniques, showing detailed results and mentioning the economic benefit of using supervised learning and mentioning UE-loss and existing AND. However, it is mentioning the different technique twice, but it uses different techniques which indicates inconsistency. "
+            },
+            {
+                "model": "Cohere",
+                "rank": 1,
+                "evaluation": "It is explaining unsupervised learning and Super-AND, mentioning UE-loss and existing AND, showing detailed results, mentioning the different unsupervised learning techniques. However, the structure could be improved as the results are mentioned before mentioning the different techniques that are included. Furthermore, the application of these findings is too general (in paper they mention the economic benefit)"
+            },
+            {
+                "model": "Chatgpt",
+                "rank": 3,
+                "evaluation": "It is mentioning super-AND, showing boosted accuracy of Super-AND, giving motivation of unsupervised learning (based on the text). However, there is no explanation of super-AND and unsupervised learning. It is using the vague phrase 'adding its own unique twist'. It is not mentioning the different techniques that super-AND combines."
+            }
+        ],
+        "evaluation": "Claude and Cohere have a high rank due to their comprehensive explanations of unsupervised learning, Super-AND, and associated techniques like UE-loss, without falling into vague language. Both papers provide clear structures, although Cohere could improve slightly by reordering sections for better coherence and claude by mentioning the same techniques to avoid inconsistency. Claude stands out for emphasizing the economic benefits of their approach, adding practical significance to their findings. While ChatGPT lags behind due to its lack of detail and clarity, it demonstrates potential with its identification of key aspects like the motivation for unsupervised learning."
+    },
+    {
+        "id": 1468,
+        "rank": [
+            {
+                "model": "Chatgpt",
+                "rank": 1,
+                "evaluation": "It is using easy language and less difficult terms. However, 'group new things' is vague language as it is not concrete/specific. Furthermore it missing mentioning/explaining the concepts 'spectral clustering' and 'missing stochastic optimization'."
+            },
+            {
+                "model": "Claude",
+                "rank": 2,
+                "evaluation": "It contains a good/easy understandable definition of clustering, spectral clustering and SpectralNet. However, the sentence 'Siamese nets to learn better similarity measures' is difficult to understand. Furthermore, 'challenging non-convex datasets' and 'autoencoders' are not explained and difficult. It is using not important complex terms which makes difficult to understand."
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "It is using the terms like 'autoencoders' and 'non-convex clusters' but these are not explained in the text. The concept of 'tested on benchmark datasets' is not common for high school students. So, this summary is difficult to understand and has no clear structure. "
+            }
+        ],
+        "evaluation": "ChatGPT is using clear language and less complex terms. However, it could include more sufficient detail in experimental results. Claude includes good explanations of key concepts but it uses difficult terms like 'Siamese nets' and not explaining terms like 'autoencoders' and 'challenging non-convex datasets'. Cohere ranks lowest because of its lack of clarity in structure and the use of words like 'benchmark datasets' and 'autoencoders' without explanation."
+    },
+    {
+        "id": 963,
+        "rank": [
+            {
+                "model": "Claude",
+                "rank": 1,
+                "evaluation": "It includes important concepts and explaining difficult concepts (node classification)."
+            },
+            {
+                "model": "Chatgpt",
+                "rank": 2,
+                "evaluation": "It is not mentioning the unsupervised part of DGI and 'even when they are explicitly taught' is not stated in text."
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "the sentence 'maximizes mutual information between patch representations in graph-structured data.' is not easy to understand."
+            }
+        ],
+        "evaluation": "Cohere was too difficult, chatgpt was missing unsupervised part of DGI and was mentioning 'explicit teaching' whereas that was not stated in text."
+    },
+    {
+        "id": 1107,
+        "rank": [
+            {
+                "model": "Claude",
+                "rank": 1,
+                "evaluation": "It is mentioning ERF, DK, convolutional networks and rigid kernels."
+            },
+            {
+                "model": "Chatgpt",
+                "rank": 2,
+                "evaluation": "It is really easy to understand as it is not using difficult words. However, it is missing rigid kernels and ERF."
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "It is explaining ERF, DK and rigid kernels. However, it doesnt explain 'convolutional networks'. It is also difficult to understand: 'conjunction with previous techniques, demonstrating their compatibility and potential for complementary benefits'"
+            }
+        ],
+        "evaluation": "Claude has comprehensive coverage of the important topics, including convolutional networks, effective receptive fields (ERF), deformable kernels (DK), and rigid kernels, while explaining all difficult terms in easy lanaguage. ChatGPT has clear language and easy-to-understand explanations, although it lacks detail on some of the specific concepts such as rigid kernels and ERF. Cohere falls to the third position as it lacks clarity in explaining convolutional networks and presents some difficulty in understanding certain phrases."
+    },
+    {
+        "id": 1713,
+        "rank": [
+            {
+                "model": "Chatgpt",
+                "rank": 1,
+                "evaluation": "It is an easy understandable summary including introduction (use of complex valued neural network), method in paper and findings of paper."
+            },
+            {
+                "model": "Claude",
+                "rank": 2,
+                "evaluation": "It contains hallucination as it is explaining neural networks as 'human brain capable of learning patterns from data' but this is not stated in the text. It does also not mention the method of the research."
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "Is is saying 'like in signal processing' but it is not explaining this term (also not an important term in paper). The phrase 'performance of complex-valued multi-layer perceptrons (MLPs) on classification tasks' is also too difficult to understand for high school students."
+            }
+        ],
+        "evaluation": "ChatGPT covers effectively all important topics in a clear and coherent manner while using simple language. Claude's summary is ranked second because it hallucination in explaining neural networks in general and lacks detail in mentioning the research method, but it still provides a relatively clear explanation. Cohere's summary is ranked the lowest because it fails to easily explain important terms and concepts (uses a lot of jargon in the summary without explaining)."
+    },
+    {
+        "id": 1125,
+        "rank": [
+            {
+                "model": "Chatgpt",
+                "rank": 1,
+                "evaluation": "It contains a good explanation of CurricularFace and introduction of the use of CNN for face recognition, easy understandable language and mentioning one of the difference with traditional CL. However, it is  explicitly mentioning target audience and is missing a more detailed explanation of how CurricularFace is different from traditional models."
+            },
+            {
+                "model": "Claude",
+                "rank": 2,
+                "evaluation": "It contains a good introduction of the topic, explaining difference with traditional CL and clear explanation how CurricularFace works. However, it is mentioning 'convergence issues' but does not explain this. Furthermore, the explanation of modulation function might be difficult to understand for high school students."
+            },
+            {
+                "model": "Cohere",
+                "rank": 3,
+                "evaluation": "It is mentioning both differences between traditional CL and CurricularFace. However, the phrases 'discriminability of features' and 'flexible decision boundary' are difficult to understand. Furthermore 'through experiments on facial benchmarks' is not clearly explained in the summary. It is also missing structure. "
+            }
+        ],
+        "evaluation": "Chatgpt might miss some details in the explanation but explains everything very easily understandable. Claude uses easy language, but is not explaining some difficult concepts or explains concepts that might be difficult for high school students to understand. Cohere uses scientific writing which makes it difficult to understand, especially for high school students."
+    }
+]

@@ -1,0 +1,25 @@
+Aspects:
+- Language: low level of complex terms (1:chatgpt, 2:claude, 3:cohere)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1:chatgpt, 2:claude, 3:cohere)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1:claude, 1:cohere, 3:chatgpt)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:cohere, 2:claude, 3:chatgpt) 
+ChatGPT: These (0), they (1)
+Claude: These (1), they (0)
+Cohere: These (0), they (0)
+
+Important topics: 
+- Spectral clustering 
+- SpectralNet
+- Stochastic optimization 
+- empirically show that this results in better performance, comparing to standard Euclidean distances
+
+Chatgpt: It is using easy language and less difficult terms. However, "group new things" is vague language as it is not concrete/specific. Furthermore it missing mentioning/explaining the concepts "spectral clustering" and "missing stochastic optimization". 
+
+Cohere: It is using the terms like "autoencoders" and "non-convex clusters" but these are not explained in the text. The concept of "tested on benchmark datasets" is not common for high school students. So, this summary is difficult to understand and has no clear structure. 
+
+Claude: It contains a good/easy understandable definition of clustering, spectral clustering and SpectralNet. However, the sentence "Siamese nets to learn better similarity measures" is difficult to understand. Furthermore, "challenging non-convex datasets" and "autoencoders" are not explained and difficult. It is using not important complex terms which makes difficult to understand.
+
+Overall rank: 1: chatgpt, 2: Claude, 3: cohere
+
+Evaluation
+ChatGPT is using clear language and less complex terms. However, it could include more sufficient detail in experimental results. Claude includes good explanations of key concepts but it uses difficult terms like "Siamese nets" and not explaining terms like "autoencoders" and "challenging non-convex datasets". Cohere ranks lowest because of its lack of clarity in structure and the use of words like "benchmark datasets" and "autoencoders" without explanation. 

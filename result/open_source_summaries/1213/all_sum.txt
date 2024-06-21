@@ -1,0 +1,1 @@
+The backpropagation algorithm is a widely used method for training neural networks, but it has some major limitations. The proposed solution, Diversely Stale Parameters (DSP), addresses the problems of forward locking, backward locking, and update locking, which occur when training large neural networks across multiple devices.

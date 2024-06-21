@@ -1,0 +1,22 @@
+Aspects:
+- Language: low level of complex terms (1: Chatgpt, 1: claude, 3: Cohere)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: Claude, 2: chatgpt, 3: cohere)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: Claude, 2:cohere, 3:chatgpt)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: claude, 1: cohere, 3: chatgpt) 
+ChatGPT: These (0), they (4)
+Claude: These (0), they (1)
+Cohere: These (0), they (1)
+
+
+Important topics: agents in reinforcement learning are not robust, overfitting RL, alternative training method that combines DRL with supervised learning, RL agent to overfit even when exposed to large training sets is quite visible, Invariance Regularization 
+
+Chatgpt: It is making an real life example to explain the problem, method and result of article which makes it easy understandable. However, it is missing results from study, does not explicit mention overfitting, could be longer to contain more detail (contains 7 sentences instead of 9) and is not explaining IR
+
+Cohere: It is explaining IR and RL, mentioning concept of agents in reinforcement learning are not robust, mentioning RL agent to overfit even when exposed to large training sets is quite visible. However, it is using difficult words like "showcasing", "customizable and diverse environments". It is not explaining the word "overfitting" or "supervised learning" 
+
+Claude: It is explaining RL IR, explaining overfitting, clear structure of addressing the problem and the proposed solution and mentioning combination of RL and supervised learning
+
+Overall rank: 1: Claude, 2: chatgpt, 3: cohere
+
+Evaluation
+Cohere was too difficult and made assumptions while chatgpt could be more detailed (but was easy understandable which is important for high school students). Chatgpt for examples does not explicitly mention the term overfitting (an important concept in computer science) but does explain the concept. Claude had a clear structure, explained important concepts and was easy to read.

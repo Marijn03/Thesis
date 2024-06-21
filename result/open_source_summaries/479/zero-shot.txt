@@ -1,0 +1,17 @@
+Deep learning agents, like those used in video games, are trained to perform well in one specific environment. However, in the real world, environments can change, and the agents need to be able to adapt. The problem is that these agents often overfit to their training environment, meaning they don't generalize well to new situations. This is a big problem because agents need to be robust to changes in their environment, such as different lighting conditions, new obstacles, or different levels of a game.
+
+To address this issue, the researchers proposed a new method called invariance regularization, which combines reinforcement learning with supervised learning. This method encourages the agent to be invariant to variations in the observations that don't affect the action taken. The results show that this method improves the generalization of policies to environments not seen during training.
+
+The researchers also studied the generalization of visual control policies to changes in the underlying dynamical system and presented a new training method that combines deep reinforcement learning with supervised learning. They used the VizDoom platform to generate numerous variants of a given environment and found that the tendency of RL agents to overfit is quite visible.
+
+The researchers proposed a method called Invariance Regularization (IR), which attempts to regularize the RL model with a supervised learning loss. This method improves the generalization success and displays stable performance across different seeds.
+
+In summary, the researchers aimed to address the overfitting problem in deep learning agents by proposing a new method that combines reinforcement learning with supervised learning. The results show that this method improves the generalization of policies to environments not seen during training.
+
+The important entities in this document are the deep learning agents, reinforcement learning algorithms, and supervised learning methods.
+
+The important dates in this document are not explicitly mentioned, but the researchers cite several papers from 2015 to 2019.
+
+The events happening in this document are the training of deep learning agents, the overfitting problem, and the proposal of a new method to address this problem.
+
+The result of these events is the development of a new method that combines reinforcement learning with supervised learning, which improves the generalization of policies to environments not seen during training.

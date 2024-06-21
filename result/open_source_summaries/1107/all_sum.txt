@@ -1,0 +1,13 @@
+The document discusses how convolutional neural networks (CNNs) struggle to recognize objects that have different shapes or deformations. This is because the networks are not aware of these geometric variations and use a fixed kernel to process the data. To overcome this issue, researchers have developed methods that adapt the kernel to the data and task at hand. However, these methods do not directly address the issue of how much each pixel contributes to the output, which is important for object recognition.
+
+The authors of this paper propose a new approach called Deformable Kernels (DKs), which directly adapts the effective receptive field (ERF) of the network to the data and task. The ERF is the area of the input image that the network is sensitive to, and adapting it allows the network to better recognize objects that have different shapes or deformations.
+
+The authors implement DKs as a drop-in replacement for traditional convolutional layers and evaluate their performance on image classification and object detection tasks. They find that DKs perform favorably against other methods that adapt during runtime and can work orthogonally and complementarily with previous techniques.
+
+The important entities in this document are convolutional neural networks, deformations, effective receptive field, and Deformable Kernels.
+
+The important dates mentioned in the document are not specific dates, but rather references to previous works and studies in the field of computer vision and machine learning.
+
+The events happening in this document are the development of Deformable Kernels, the evaluation of their performance on various tasks, and the comparison with other methods.
+
+The result of these events is the development of a new approach to adapting convolutional neural networks to object deformations, which can improve their performance on tasks such as image classification and object detection.

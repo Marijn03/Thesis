@@ -1,0 +1,23 @@
+- Language: low level of complex terms (1: best_sum, 1: all_sum, 3: all_sum_ev , 4: zero-shot)
+best_sum: uses easy understandable language, 1 difficult word “deformations”
+all_sum: uses words like “orthogonally” and “complementarily”, but difficult terms are easily explained
+zero-shot: “inefficient utilization of model and data capacity” and uses more technical terms
+all_sum_ev: uses words like “orthogonally” and “complementarily”. Goes into detail about the effective receptive field (ERF) and the theoretical justification for DKs.
+
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: all_sum, 1: all_sum_ev, 3: best_sum , 4: zero-shot)
+best_sum: the purpose of the fourth paragraph is not clear. 
+zero-shot: Not really clear explanation of using a new approach. 
+all_sum: describes more clearly why the research developed a new approach since it first starts to introduce ERF and then DKs
+all_sum_ev: describes more clearly why the research developed a new approach since it first starts to introduce ERF and then DKs
+
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: all_sum_ev , 1: zero-shot , 3: all_sum, 4: best_sum)
+best_sum: CNNs, geometric variations, ERF, DKs, Proposal of DKs, testing on tasks, theoretical discussion.
+all_sum: CNNs, geometric variations, ERF, DKs, Proposal of DKs, evaluation on tasks, comparison with other methods.
+zero-shot: CNNs, geometric variations, ERF, DKs (global and local), Proposal of DKs, introduction of DK variants, validation through experiments.
+all_sum_ev: CNNs, geometric variations, deformation modeling, ERF, DKs, Proposal of DKs, theoretical justification, evaluation on tasks, comparison with prior works.
+
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: all_sum_ev, 2: best_sum, 2: all_sum, 4: zero-shot)
+best_sum: These (2), they (2)
+all_sum: These (3), they (1)
+zero-shot: These (5), they (0)
+all_sum_ev: These (2), they (1)

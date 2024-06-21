@@ -1,0 +1,9 @@
+The document discusses a method called Knowledge Distillation (KD) that helps transfer knowledge from a more advanced machine learning model (the teacher) to a less advanced model (the student). The teacher model has more capacity to learn and process information, but the student model may not benefit fully from the same data points that the teacher is trained on. The authors of the document propose a new approach to KD, inspired by how human teachers adapt their teaching to individual students' backgrounds and interests. They design data augmentation agents that generate distinct training data for the teacher and student models, respectively. The agents learn to create customized data points that help the teacher demonstrate its knowledge more effectively to the student. The authors test their approach on popular neural architectures and show that it improves the effectiveness of KD over existing methods. They also discuss the importance of adaptive data augmentation in knowledge distillation, particularly when the teacher model has higher precision (bit-width) than the student model.
+
+The important entities in this document are the machine learning models (teacher and student), the data augmentation agents, and the neural architectures.
+
+The important dates mentioned in the document are not explicitly stated, but the references provided are from 2002 to 2019, indicating the time period in which the research was conducted.
+
+The events happening in this document are the development of the Knowledge Distillation method, the design of data augmentation agents, and the testing of the approach on various neural architectures.
+
+The result of these events is the improvement of the effectiveness of Knowledge Distillation, enabling the transfer of knowledge from a more advanced model to a less advanced model, which is particularly important for deploying trained models on embedded devices or in data centers to reduce energy consumption.

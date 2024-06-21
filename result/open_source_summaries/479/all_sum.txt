@@ -1,0 +1,9 @@
+The document discusses how artificial intelligence agents, like those used in video games or robots, can be trained to perform tasks in one environment but struggle to adapt to changes in that environment. This is called overfitting. The authors of the document propose a new way to train these agents, called invariance regularization, which helps them learn to perform tasks in different environments by adding a new step to the training process. This new step encourages the agent to ignore irrelevant details in the environment and focus on the important features. The authors tested this method on a video game platform called VizDoom and found that it improved the agent's ability to generalise to new environments.
+
+The important entities in this document are the artificial intelligence agents, the environments they are trained in, and the method of invariance regularization.
+
+The important dates mentioned in the document are not specific dates, but rather references to previous research papers and publications.
+
+The events happening in this document are the training of artificial intelligence agents, the testing of the agents in different environments, and the development of the invariance regularization method.
+ 
+The result of these events is the improvement of the agent's ability to generalize to new environments, making it more robust and useful in real-world applications.

@@ -1,0 +1,9 @@
+The document discusses a problem in artificial intelligence called reinforcement learning, where a computer program learns to make decisions by trial and error. The goal is to solve complex tasks that require planning ahead, but the program struggles with making decisions when the rewards are sparse and delayed. To address this issue, the authors propose a new approach called Hierarchical Decompositional Reinforcement Learning (HiDe). This method breaks down the decision-making process into multiple levels, allowing the program to plan and control its actions more effectively.
+
+The authors test their method on several complex navigation tasks, such as navigating a maze, and demonstrate that it can generalize to unseen environments and transfer to different agents. This means that the program can learn to navigate a maze in one environment and then apply that knowledge to navigate a similar maze in a different environment.
+
+The key insight behind HiDe is to separate the planning and control layers, allowing each layer to focus on its specific task. The planning layer learns to create a plan to reach the goal, while the control layer refines the plan and controls the agent's movements. This modular design enables the program to generalize and transfer knowledge more effectively.
+
+The authors also show that the planning layer can be transferred between different agents, allowing a planner trained on a simple agent to be used on a more complex agent. This is a significant breakthrough in reinforcement learning, as it enables the program to learn and adapt more efficiently.
+
+Overall, the HiDe approach has the potential to revolutionize the field of reinforcement learning and enable computers to solve complex problems that require planning and decision-making.

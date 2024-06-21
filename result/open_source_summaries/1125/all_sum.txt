@@ -1,0 +1,9 @@
+In the field of face recognition, researchers have been trying to design better loss functions to improve the accuracy of facial recognition systems. One important idea is to use "margin-based" loss functions, which try to increase the difference between faces of different people. However, previous methods have some limitations. For example, they don't always emphasize the most important samples, which can lead to poor performance.
+
+To address this issue, the authors of this paper propose a new loss function called CurricularFace. This loss function is inspired by the way humans learn, where we start with easy tasks and gradually move on to harder ones. In CurricularFace, the algorithm starts by focusing on easy samples in the early stages of training and then gradually shifts its attention to harder samples as training progresses.
+
+The authors also introduce a new way to adjust the importance of hard samples, which are samples that are misclassified by the model. They use a special function to adjust the weight of these hard samples, so that the model pays more attention to them as training progresses.
+
+The authors tested their CurricularFace loss function on several popular face recognition benchmarks and found that it outperformed the state-of-the-art competitors. They also compared their method with other loss functions, such as ArcFace and SV-Arc-Softmax, and found that CurricularFace is more effective.
+
+Overall, the authors' new loss function, CurricularFace, is a significant improvement over previous methods and has the potential to be used in real-world applications such as facial recognition systems.

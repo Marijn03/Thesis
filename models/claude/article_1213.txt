@@ -1,0 +1,1 @@
+Training very large neural networks across multiple computers is challenging due to issues like devices running at different speeds. This paper proposes a new algorithm called "Diversely Stale Parameters" that can efficiently train huge neural networks on distributed systems while overcoming these challenges without sacrificing accuracy.

@@ -1,0 +1,21 @@
+- Language: low level of complex terms (1: zero-shot, 1: all_sum, 3: all_sum_ev , 4:best_sum)
+best_sum: difficult explanation of margin-based loss functions, difficult words like “relative importance”, “enhance the feature margin between different classes” which is difficult to comprehend.
+all_sum: uses easy understandable language
+zero-shot: really clear language, no difficult words are used in explanations
+all_sum_ev: “adjust the weights of hard samples in each mini-batch” difficult to comprehend.
+
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: zero-shot, 1: all_sum, 3: all_sum_ev, 4: best_sum)
+best_sum: not explaining “curriculum learning”.  It makes a clear comparison with human learning, but there is no clear structure since it starts with introducing curricularFace, then it mentions the traditional methods, then it is talking about implementation and entities of CurricularFace. It does also not use conjunctions to connect different parts of the text. Does not explain “negative cosine”. 
+all_sum: make use of conjuctions to connect the paragraphs, good structure and clear written. Clear explanation of “CurricularFace”.
+zero-shot: clear structure and use of conjunctions
+all_sum_ev: does not explain “loss functions”, clear explanation of “CurricularFace”. After discussing the results, the summary describes the implementation of the system.
+
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: best_sum, 1: all_sum_ev, 3: all_sum, 3: zero-shot)
+Best_sum and all_sum_ev also discusses the limitations of the existing models wheres all_sum and zero-shot do not do this. 
+
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: zero-shot, 2: best_sum, 4: all_sum, 4: all_sum_ev)
+best_sum: These (2), they (1)
+all_sum: These (1), they (3)
+zero-shot: These (1), they (0)
+all_sum_ev: These (2), they (5)
+However, all 5 occurences of “they” are outside the summary

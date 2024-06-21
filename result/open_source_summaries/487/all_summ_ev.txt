@@ -1,0 +1,9 @@
+The document discusses the importance of detecting out-of-distribution (OOD) samples in machine learning models. OOD samples are data points that are not part of the training data and can cause models to make incorrect predictions. The authors propose a new type of classifier called a generative classifier, which is better at detecting OOD samples than traditional classifiers. This classifier works by learning the patterns in the data and creating a model of what normal data looks like. It then uses this model to identify OOD samples by measuring how far they are from the normal patterns. The authors test their classifier on several types of data and show that it outperforms other methods in detecting OOD samples. They also show that their classifier can be used with different types of machine learning models to improve their performance.
+
+Important entities: OOD samples, generative classifier, machine learning models, training data, test data
+
+Important dates: Not applicable
+
+Events: The authors propose a new type of classifier called a generative classifier, which is better at detecting OOD samples than traditional classifiers.
+
+Result: The generative classifier outperforms other methods in detecting OOD samples and can be used with different types of machine learning models to improve their performance.

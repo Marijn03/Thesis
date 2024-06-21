@@ -1,0 +1,24 @@
+The document discusses a challenge in artificial intelligence called "long-horizon sequential decision making" where a robot or agent needs to make decisions over a long period of time to achieve a goal. This is a difficult problem because the agent may not receive rewards or feedback until much later, making it hard to learn what actions to take.
+
+The authors propose a new approach called Hierarchical Decompositional Reinforcement Learning (HiDe) that breaks down the problem into smaller, more manageable tasks. This allows the agent to focus on one task at a time and learn from its experiences more efficiently.
+
+The HiDe architecture consists of three layers: a planning layer, a subgoal refinement layer, and a low-level control layer. The planning layer learns to find a path to the goal, the subgoal refinement layer refines the plan into smaller, more specific goals, and the low-level control layer controls the agent's movements.
+
+The authors test their approach on various complex navigation tasks and show that it can generalize to new environments and transfer knowledge between different agents. This means that an agent trained on one task can be used to solve similar tasks with different settings or environments.
+
+In summary, the authors have developed a new approach to long-horizon sequential decision making that uses hierarchical decomposition to break down the problem into smaller tasks. This approach allows the agent to learn more efficiently and generalize to new environments, making it a promising solution for complex tasks like navigation.
+
+The important entities in this document are:
+
+* Hierarchical Reinforcement Learning (HRL)
+* Hierarchical Decompositional Reinforcement Learning (HiDe)
+* Planning layer
+* Subgoal refinement layer
+* Low-level control layer
+* Navigation tasks
+
+The important dates in this document are not explicitly mentioned, but the authors refer to previous works in the field of reinforcement learning, such as Mnih et al. (2013), Lillicrap et al. (2015), and Levine et al. (2015).
+
+The events in this document are the development and testing of the HiDe architecture, which involves breaking down the problem of long-horizon sequential decision making into smaller tasks and using hierarchical decomposition to learn more efficiently.
+
+The result of these events is a new approach to long-horizon sequential decision making that can generalize to new environments and transfer knowledge between different agents.

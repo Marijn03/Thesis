@@ -1,0 +1,28 @@
+Aspects:
+- Language: low level of complex terms (1:Cohere, 1:chatgpt , 3: Claude)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1:Claude, 2:Cohere, 2:chatgpt)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: Claude, 2: Cohere, 3:chatgpt)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:Cohere, 2:claude, 3:Chatgpt) 
+ChatGPT: These (0), they (2)
+Claude: These (1), they (0)
+Cohere: These (0), they (0)
+
+
+Important topics: 
+- contextualized word representation
+- comparing different pretraining tasks in this context
+- language modeling is the most effective single pretraining task 
+- multitask learning during pretraining can offer further gains 
+- Multitask pretraining can produce results better than any single task can
+
+Chatgpt: It is mentioning concept of contextualized word representation but not explicit mentioning it. There is a hallucination: 'to predict the next word in a sentence (language modeling)'. Text is only talking about 'language modeling as a pretraining task'. It is not explaining what research is about. Instead of the phrase "some tasks benefit", it could have mentioned example like 'multitask training'. 
+
+Cohere: It is explicitly mentioning target audience and the prompt which is makes summary worse.
+
+Claude: It gives a clear explanation of concepts. There is a hallucination: 'to predict the next word in a sentence (language modeling)'. Text is only talking about 'language modeling as a pretraining task'. 
+
+Overall ranking: 1:Claude, 1:Cohere, 3:Chatgpt
+
+Evaluation
+Claude and chatgpt both explained language modeling in a way that was not stated in the article. Claude explained the concepts in detail and structured way. Cohere and chatgpt are missing some detail. 
+

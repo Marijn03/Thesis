@@ -1,0 +1,9 @@
+The document discusses a problem with convolutional neural networks, which are not good at recognizing objects that are deformed or changed shape. This is because the networks are not aware of these changes and can't adapt to them. To solve this problem, researchers have been trying to find ways to make the networks more aware of deformations. One way to do this is by changing the way the network looks at the data, so that it can recognize the same object even if it's deformed.
+
+The document introduces a new approach called Deformable Kernels (DKs), which is a way to make the network more aware of deformations by adapting the way it looks at the data. DKs are a type of convolutional operator that can be used to handle object deformations by directly adapting the effective receptive field (ERF) of the network. The ERF is the area of the input data that the network is actually looking at, and adapting it allows the network to focus on the parts of the object that are most important for recognition.
+
+The authors of the document tested DKs on several tasks and compared them to other approaches that also try to handle object deformations. They found that DKs performed better than the other approaches in many cases, and that they can be used to improve the performance of convolutional neural networks.
+
+The document also discusses the theoretical background of DKs, including the idea that the ERF is strictly determined by the data sampling locations and kernel values. This means that the ERF is not just a fixed property of the network, but can be changed depending on the data and the task.
+
+Overall, the document presents a new approach to handling object deformations in convolutional neural networks, and shows that it can be effective in improving the performance of these networks.

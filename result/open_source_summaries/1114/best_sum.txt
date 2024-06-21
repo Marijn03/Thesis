@@ -1,0 +1,9 @@
+Flies and mice have evolved to have similar olfactory systems, despite being separated by 600 million years of evolution. This study explores why these systems are similar and whether they are optimal for sensing odors. Researchers used artificial neural networks to study the evolution of olfactory circuits and found that the networks quantitatively recapitulate the structures of the fly and mouse olfactory systems, including the formation of glomeruli and sparse and random connectivity. The study suggests that the shared features of these systems are optimal for odor sensing, and the architecture of the olfactory system is a result of evolution's optimal design. The researchers also found that the simplicity of the fly olfactory circuit and the exhaustive knowledge of its anatomy provided constraints that could be used to gain insight into evolutionary design.
+
+Important entities in this document include flies, mice, olfactory systems, artificial neural networks, and odors.
+
+Important dates mentioned in the document include the last two decades, when the anatomic and functional organization of the fly and mouse olfactory systems were mapped to excruciating detail.
+
+Events happening in this document include the study of artificial neural networks to classify odors and the analysis of the anatomical and functional structures that emerge after training.
+
+The result of these events is a framework to explain the evolutionary convergence of olfactory circuits and insight into the anatomic and functional structure of the olfactory system.

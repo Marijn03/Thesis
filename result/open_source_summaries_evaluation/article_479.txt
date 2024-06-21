@@ -1,0 +1,25 @@
+For this article, all the summaries are making a list of the entities.
+
+- Language: low level of complex terms (1: all_sum, 2:best_sum , 3:all_sum_ev , 4: zero-shot)
+best_sum: not mentioning that overfitting means “trained on unseen data”
+all_sum: easy language and difficult terms are explained
+zero-shot: not explaining “deep reinforcement learning with supervised learning”, not explaining “supervised learning loss”. Uses a lot of jargon.  
+all_sum_ev: not explaining overfitting, explanation invariance regularization is not easy, not explaining reinforcement learning, not explaining “artificial agents”
+
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: zero-shot, 1:all_sum_ev , 3: all_sum, 4: best_sum)
+all_sum: not easy understandable explanation of “overfitting”
+best_sum: less clear in discussing the problem and solution
+zero-shot: has a clear structure 
+all_sum_ev: it goes from problem statement tot proposed results, clear explanation of overfitting
+
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1:best_sum , 2:zero-shot , 3: all_sum_ev, 4:best_sum)
+best_sum: mentions RL
+all_sum: bit general in explaining, not mentioning RL
+zero-shot: mentions RL
+all_sum_ev: not mentioning RL
+
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: best_sum, 2: all_sum, 2: all_sum_ev, 4: zero-shot)
+best_sum: These (0), they (1)
+all_sum: These (2), they (1)
+zero-shot: These (2), they (2)
+all_sum_ev: These (2), they (1)

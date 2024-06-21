@@ -1,0 +1,19 @@
+Only in all_sum and all_sum_ev have a list of the answers to the questions
+
+All_sum: difficult definition of Jumpout, an sentence ‘Jumpout also adaptively normalizes the dropout rate and rescales the outputs to maintain consistency between training and testing.’ Is difficult to read, not explaining overfitting
+
+all_sum_ev: explaining overfitting, explaining dropout rate, explaining ‘rescaling the output of the network’ 
+
+Best_sum: explaining overfitting,  difficult explanation of jumpout, not explaining  “tuning dropout rate” are not explained 
+
+zero-shot: difficult explanation of working of jumpout, difficult words like “inconsistent normalization between training and testing conditions when used with batch normalization”. Vague word: “smoothing technique”
+
+- Language: low level of complex terms (1: all_sum_ev, 2: best_sum, 3: zero-shot, 4: all_sum)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: all_sum_ev, 2: best_sum, 3: all_sum, 4: zero-shot)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: best_sum, 1: all_sum, 1: all_sum_ev, 1: zero-shot)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: best_sum, 2: all_sum, 3: all_sum_ev, 4: zero-shot)
+
+best_sum,: These (0), they (0)
+all_sum: These (2), they (0)
+zero-shot: These (1), they (0)
+all_sum_ev: These (3), they (2)

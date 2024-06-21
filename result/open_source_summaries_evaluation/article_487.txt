@@ -1,0 +1,24 @@
+In the all_sum article the summary contains a list of answers to the questions in the prompt. Normally, this is after the summary, now its stated twice in the summary. 
+
+- Language: low level of complex terms (1:all_sum_ev , 1:all_sum , 3: zero-shot , 4:best_sum)
+best_sum: “modeling the class-conditional distributions”, “separate Gaussian distributions” 
+all_sum: easy language, explains every complex term
+zero-shot: “decision boundary between classes”
+all_sum_ev: easy language, explains every complex term
+
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1:all_sum_ev, 2: best_sum, 3: zero-shot, 4: all_sum)
+best_sum: clear structure, long sentence to explain classifier 
+all_sum: it is listing the answers to questions in the summary
+zero-shot: first sentence is long and confusing 
+all_sum_ev: clear structure 
+
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: best_sum, 2: zero-shot, 4: all_sum, 4: all_sum_ev)
+all_sum and all_sum_ev included the same information
+zero-shot: explains calculation of confidence scores
+best_sum: explains Out-of-distribution (OOD), generative classifier aims to explicitly model class-conditional distributions as separable Gaussian distributions
+
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: best_sum, 2: all_sum, 2: zero-shot, 4: all_sum_ev)
+best_sum: These (1), they (0)
+all_sum: These (2), they (0)
+zero-shot: These (1), they (1)
+all_sum_ev: These (0), they (2), “measuring how far they are from the normal patterns”

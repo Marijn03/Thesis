@@ -1,0 +1,22 @@
+Aspects:
+- Language: low level of complex terms (1: chatgpt, 2: Cohere, 3: claude)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: chatgpt, 2: Cohere, 2: claude)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: Claude, 2: Cohere, 3: chatgpt)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: Claude, 2: ChatGPT, 2: Cohere) 
+ChatGPT: These (1), they (1)
+Claude: These (0), they (1)
+Cohere: These (2), they (0)
+
+
+Important topics: Dropout, Jumpout, jumpout shows significantly improved performance, DNN are often able to fit the training data perfectly - this can result in the overfitting problem, perturbation, fixed/constant dropout rate, rescaling factor of dropout, dropout rates need to be tuned 
+
+Chatgpt: It is mentioning the concepts: dropout, jumpout, dropout rates need to be tuned and improve performance using jumpout. However, it is not mentioning overfitting problem and dropout rates. It contains too much introduction and application.
+
+Cohere: It is mentioning problem overfitting, tuning, explaining jumpout, dropout, adaptive dropout rate and improve performance using jumpout. However it uses lot of technical terms.  
+
+Claude: It is mentioning the problem of overfitting, tuning, explaining jumpout, improved performance and adaptive dropout rate. However it is also using difficult terminology like 'sampling rates', 'rescales outputs', 'computational cost', 'innovating on fundamental techniques'. 
+
+Overal ranking: 1: Chatgpt, 2: Cohere, 2:Claude
+
+Evaluation
+Both Cohere and Claude were more in depth regarding the concepts. However, this made the comprehension of both summaries more difficult compared to the summary of chatgpt. High school students do not have any knowledge in this domain. That's why chatgpt receives the highest rank.

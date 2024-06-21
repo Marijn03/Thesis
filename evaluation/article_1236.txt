@@ -1,0 +1,25 @@
+Aspects:
+- Language: low level of complex terms (1:claude, 1:chatgpt , 3:cohere)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1:claude, 1:chatgpt, 3: cohere)
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1:cohere, 1:claude, 1:chatgpt)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:cohere, 2:claude, 3:chatgpt) 
+ChatGPT: These (1), they (2)
+Claude: These (0), they (1)
+Cohere: These (0), they (0)
+
+Important topics: 
+- Capsule Networks 
+- Siamese Capsule Networks
+- pairwise learning setting to learn relationships between whole entity encodings, while also demonstrating their ability to learn from little data that can perform few-shot learning where instances from new classes arise during testing 
+- pooling
+
+Chatgpt: It is using easy language. However, the phrase 'contrastive loss function and encoded capsule pose vectors' is difficult to understand and not explained. 
+
+Cohere: The sentence 'The key innovation lies in their ability to perform dynamic routing, sending lower-level capsule outputs as input to parent capsules, achieving translation equivariance' contains difficult words which are not explained later in the summary (dynamic routing). The phrase "crude routing operations" is not explained in summary and is difficult to understand. 
+
+Claude: It is using easy language. However, the sentence "A contrastive loss function is used to train the network to maximize the difference between capsules for different identities while minimizing it for the same identity" is not easy to understand as high school student.
+
+Overall score: 1:Chatgpt, 1:claude, 3:cohere
+
+Evaluation
+All the three summaries have the same level of information load. However, claude and chatgpt are using easier language to explain the concepts which is important for high school students. 

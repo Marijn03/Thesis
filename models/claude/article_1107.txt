@@ -1,0 +1,9 @@
+Convolutional neural networks are a type of artificial intelligence that can recognize objects in images. However, they struggle when objects appear deformed or transformed in different ways. This is because the standard convolution operation uses fixed patterns (kernels) to process the image. Recent research has tried to make convolutions more flexible by adjusting where they look in the image for each object. 
+
+But looking at different parts of the image is not quite enough - what really matters is how much each pixel contributes to the final recognition. This is called the effective receptive field. The researchers introduce "Deformable Kernels" which adapt the effective receptive field directly, instead of just looking at different areas.
+
+Deformable Kernels work by resampling and deforming the fixed kernel patterns based on the input image. This allows the kernel patterns to match the deformations of objects better. The researchers provide mathematical explanations for why this approach should work.
+
+They test two variants of Deformable Kernels on image classification and object detection tasks. Their experiments show Deformable Kernels perform better than previous methods that only adjusted where to look. Deformable Kernels can also complement those previous methods when used together.
+
+In summary, this research makes convolutional neural networks more aware of object deformations by deforming the kernel patterns themselves, leading to improved performance on computer vision tasks.

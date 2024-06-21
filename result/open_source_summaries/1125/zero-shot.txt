@@ -1,0 +1,30 @@
+The document discusses the importance of designing loss functions in deep face recognition, which is a type of artificial intelligence that helps computers recognize human faces. The researchers propose a new loss function called CurricularFace, which is designed to adaptively adjust the importance of easy and hard samples during training. This means that the model first focuses on easy samples in the early stages of training and then shifts its attention to harder samples later on.
+
+The CurricularFace loss function is inspired by the way humans learn, where we first learn simple concepts and then move on to more complex ones. The researchers also compare their method to other state-of-the-art methods, such as ArcFace and SV-Arc-Softmax, and show that their method outperforms them.
+
+The document also highlights the limitations of current methods, such as not fully exploiting the importance of hard samples or over-emphasizing them in early training stages. The researchers argue that their CurricularFace method addresses these limitations and provides a more effective way to train deep face recognition models.
+
+Overall, the document presents a new approach to deep face recognition that is inspired by human learning and adapts to the difficulty of samples during training. The results show that this approach outperforms other state-of-the-art methods, making it a promising direction for future research.
+
+Important entities:
+
+* Deep face recognition
+* Loss functions
+* CurricularFace
+* ArcFace
+* SV-Arc-Softmax
+* Focal loss
+
+Important dates:
+
+* Not applicable (this is a scholarly document, not a historical or event-based document)
+
+Events:
+
+* The development of deep face recognition
+* The proposal of the CurricularFace loss function
+* The comparison of CurricularFace to other state-of-the-art methods
+
+Result:
+
+* The CurricularFace loss function outperforms other state-of-the-art methods in deep face recognition.

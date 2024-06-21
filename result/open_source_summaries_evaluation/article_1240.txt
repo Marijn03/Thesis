@@ -1,0 +1,23 @@
+- Language: low level of complex terms (1: best_sum, 1: all_sum, 1: zero-shot, 4: all_sum_ev)
+best_sum: contains easy understandable language
+all_sum: contains easy understandable language
+zero-shot: contains easy understandable language
+all_sum_ev: “domain adaptation perspective”, “to identify and leverage additional negative labels”
+
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1: all_sum_ev, 2: zero-shot, 4: all_sum , 4: best_sum)
+best_sum: the function of the third paragraph in the summary is not clear
+all_sum: gives example to explain problem, but give limitations of other models after discussing the performance of their method
+zero-shot: clear coherent story, could use paragraphs to define more structure to the summary. 
+all_sum_ev: clear structure with paragraphs
+
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1: all_sum, 2: zero-shot, 3:best_sum , 4:all_sum_ev)
+best_sum: doesn’t discuss the limitations of previous papers, doesn’t include the way the method is tested
+all_sum: does not mention the importance of domain expertise
+zero-shot: doesn’t discuss the limitations of previous papers, does not mention the importance of domain expertise
+all_sum_ev: doesn’t discuss the limitations of previous papers, doesn’t include the way the method is tested
+
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1: all_sum, 2: best_sum, 4: zero-shot, 4: all_sum_ev)
+best_sum: These (1), they (1)
+all_sum: These (0), they (0)
+zero-shot: These (1), they (2)
+all_sum_ev: These (1), they (2)

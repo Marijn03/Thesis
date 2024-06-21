@@ -1,0 +1,13 @@
+Cohere: 
+- not explaining difficult terms: 11
+- missing terms, method or results: 2
+
+
+Claude:
+- not explaining difficult terms: 6
+- missing terms, method or results: 4
+
+ChatGPT: 
+- not explaining difficult terms: 3
+- missing terms, method or results: 20
+

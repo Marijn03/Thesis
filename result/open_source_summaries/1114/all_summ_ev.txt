@@ -1,0 +1,9 @@
+Flies and mice are very different species that have been around for 600 million years, but they both have similar ways of sensing smells. Scientists have studied the parts of their brains that help them do this and found that they have many similarities. They wanted to know why these similarities exist and if they are the best way for animals to sense smells. To answer this, they created artificial neural networks, which are like computer models of the brain, and trained them to recognize smells. They found that the models developed similar structures to the real brains, including the formation of "glomeruli" and "sparse and random" connections between different parts. They also found that these features are important for the brain to be able to recognize and classify smells correctly. The study suggests that these features are not just a coincidence, but are actually the best way for the brain to process smells.
+
+The important entities in this document are the flies and mice, which are the species being studied, and the artificial neural networks, which are the computer models of the brain.
+
+The important dates mentioned in the document are not specific dates, but rather references to studies and research conducted over the last two decades.
+
+The events happening in this document are the study of the fly and mouse olfactory systems, the creation and training of artificial neural networks, and the analysis of the results.
+
+The result of these events is a better understanding of how the brain processes smells and why certain features are optimal for odor sensing.

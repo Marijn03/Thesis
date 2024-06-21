@@ -1,0 +1,1 @@
+The researchers introduced a new approach called Deep Graph Infomax (DGI) to learn node representations in graph-structured data without any supervision. The approach focuses on maximizing the mutual information between local patch representations and high-level summaries of the graph, which are both derived from established graph convolutional network architectures.

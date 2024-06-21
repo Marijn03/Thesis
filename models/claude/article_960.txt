@@ -1,0 +1,9 @@
+Reinforcement learning (RL) is a field of artificial intelligence where an agent learns to make decisions by trying different actions and receiving rewards or punishments. A major challenge in RL is solving tasks that require planning over long time periods with infrequent rewards, like navigating a maze. Hierarchical reinforcement learning (HRL) tries to solve this by breaking down the task into multiple levels of abstraction. 
+
+This paper proposes a new HRL approach called Hierarchical Decompositional Reinforcement Learning (HiDe). HiDe has three levels: a planning layer that learns the overall path, a middle layer that refines the plan into shorter goals, and a low-level layer that controls the agent's movements. The layers are trained together but separated by their functions.
+
+The planning layer creates a value map of the environment and uses an attention network to estimate how far the agent can move in one step. It then chooses a subgoal location that maximizes the value while staying within the movable range. The middle layer turns this subgoal into a series of shorter-term targets. The low layer executes actions to reach each target.
+
+HiDe was evaluated in 3D maze environments with sparse rewards given only for reaching the goal. Even when trained with a fixed start and end point, HiDe could generalize to random maze configurations it had never seen before. Impressively, the planning layer could also be transferred between different agents, like controlling a ball versus a humanoid character.
+
+This functional decomposition and ability to generalize across environments shows the potential of HRL methods like HiDe for solving complex decision-making tasks. For students interested in AI, HRL is an exciting area applying concepts like hierarchies, abstractions, and transfer learning.

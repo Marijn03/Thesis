@@ -1,0 +1,1 @@
+Computer scientists have developed a new training algorithm called Diversely Stale Parameters (DSP) to address the limitations of the widely used backpropagation algorithm in neural network training. DSP efficiently overcomes issues like forward and backward locking, improving accuracy and speed, and proving its convergence to critical points in non-convex problems.

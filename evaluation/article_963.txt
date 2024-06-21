@@ -1,0 +1,25 @@
+Aspects:
+- Language: low level of complex terms (1:Chatgpt, 2: claude, 3:cohere)
+- Clarity and coherence: clear structure or explanation of the concepts in the paper (1:Claude, 1:Cohere, 1:chatgpt))
+- Detail: provide sufficient detail on the experimental results and significance of the findings (1:Claude, 1:Cohere, 1:chatgpt)
+- Confusing language: vague language like “They fixed a thing called loss scaling” (1:Cohere, 1:Claude, 3:chatgpt) 
+ChatGPT: These (0), they (1)
+Claude: These (0), they (0)
+Cohere: These (0), they (0)
+
+
+Important topics: 
+- Deep Graph Infomax 
+- unsupervised learning with GCNs, DGI does not rely on random walk objectives, and is readily applicable to both transductive and inductive learning setups
+- competitive performance on a variety of node classification benchmarks
+
+Chatgpt: It is not mentioning the unsupervised part of DGI and "even when they are explicitly taught" is not stated in text.
+
+Cohere: the sentence "maximizes mutual information between patch representations in graph-structured data." is not easy to understand.
+
+Claude: It includes important concepts and explaining difficult concepts (node classification)
+
+Overall rank: 1: Claude, 2: Chatgpt, 3:Cohere
+
+Evaluation
+Cohere was too difficult, chatgpt was missing unsupervised part of DGI and was mentioning "explicit teaching" whereas that was not stated in text
