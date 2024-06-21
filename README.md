@@ -10,3 +10,4 @@ In order to run our code you should install the packages by the following code:
 pip install -r requirements.txt
 ```
 
+The /article_txt directory contains the articles used in the thesis, named by their id. The /article_txt/dataset_prompt folder contains of .txt files with the article text and the two prompts. In the /models directory includes the summaries of the closed source models. The /evaluation directory contains files with the evaluations of the closed-source summaries and the /annotated_dataset contains the development dataset and the evaluation dataset. Finally, the /results directory consists of all the table in the paper, the summaries of Llama3 and the evaluation of these summaries. 
